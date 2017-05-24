@@ -1,6 +1,39 @@
-# JRC Overlapping Generations Model Training by Open Research Group
+# Open Source Macroeconomics Laboratory (OSM Lab)
 
-This public repository contains the training materials, tutorials, and code for the two week training delivered to the Joint Research Centre of the European Commission in Seville, Spain, May 29 to June 9, 2017 by [Richard Evans](https://sites.google.com/site/rickecon/) and [Jason DeBacker](http://jasondebacker.com/) of [Open Research Group, Inc.](http://openrg.com/) (OpenRG).
+This public repository contains the training materials, tutorials, and code for the seven-week Boot Camp of the Open Source Macroeconomics Laboratory (OSM Lab) at Becker Friedman Institute of the University of Chicago, June 19 to August 4. The OSM Lab was founded by Dr. Richard W. Evans, Senior Lecturer at the University of Chicago M.A. Program in Computational Social Science and Fellow at the Becker Friedman Institute. The OSM Lab is funded primarily from a 5-year grant from the Charles Koch Foundation. Part of this grant also included the creation of the Dynamic Analysis Center at the Baker Institute at Rice University, which is directed by John Diamond.
+
+
+## OSM Lab Leadership
+
+**Director: [Dr. Richard W. Evans](https://sites.google.com/site/rickecon/) [(rwevans@uchicago.edu)](mailto:rwevans@uchicago.edu).** The Director and Founder of the OSM Lab is [Richard W. Evans](https://sites.google.com/site/rickecon/). Dr. Evans is a Senior Lecturer at the University of Chicago and a Fellow at the Becker Friedman Institute.
+
+**Logistics and finances: Grace Hammond, Becker Friedman Institute [(gohammond@uchicago.edu)](mailto:gohammond@uchicago.edu)**: Grace Hammond is the Associate Director for Operations, Programs, and Finance at the Becker Friedman Institute. She coordinates the student and instructor travel, housing, and financial matters.
+
+**Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the [PDF schedule](?) or check the respective [math](?), [econ](?), and [computational](?) detailed schedule pages.
+
+* [Thomas Sargent](http://www.tomsargent.com/), New York University
+* [Lars Hansen](http://larspeterhansen.org/), University of Chicago
+* [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
+* [Jason DeBacker](http://www.jasondebacker.com/), University of South Carolina
+* [Kerk Phillips](https://sites.google.com/site/kerkphillips/home), Brigham Young University
+* [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html), University of Zurich
+* [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), ?
+* [Matthew Jensen](http://www.aei.org/scholar/matthew-h-jensen/), Open Source Policy Center, American Enterprise Institute
+* [John Stachurski](http://johnstachurski.net/), Australia National University
+* [Viktor Tsyrennikov](https://sites.google.com/site/vtsyrennikov/), Promontory Financial Group
+* Justin Gardiner, Northwestern University
+* [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/), University of California Los Angeles
+
+
+## Boot Camp Schedule
+
+The OSM Lab Boot Camp begins on Monday, June 19 and ends on Friday, August 4. Classes will be held Monday through Friday, 8am to noon in Saieh Hall, Room 247 at the University of Chicago. The curriculum consists of equal parts math, economic theory, and computational methods.
+
+* Math is Monday, Wednesday, Friday, 8:00-9:50am
+* Economics is Monday, Wednesday, Friday, 10:00-11:50am
+* Computational Methods is Tuesday, Thursday 8:00-11:50am
+
+Below is a summary schedule of topics. More detailed schedules are
 
 We are planning on the following schedule each of the 10 workdays during that time. Let us know if we need to change this schedule in any way.
 
