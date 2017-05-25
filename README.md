@@ -4,16 +4,16 @@ This public repository contains the training materials, tutorials, and code for 
 
 This `README.md` serves as a syllabus and reference for the OSM Lab Boot Camp. This document has 10 sections.
 
-1. OSM Lab leadership
-2. Boot Camp schedule
-3. Instructions for installing the Anaconda distribution of Python
-4. Text editor suggestions
-5. PEP 8, docstring commenting, and module structure
-6. Using LaTeX
-7. Git and GitHub.com tutorial
-8. Jupyter notebooks
-9. Python tutorials
-10. References
+1. [OSM Lab leadership](https://github.com/OpenSourceMacro/BootCamp2017#1-osm-lab-leadership)
+2. [Boot Camp schedule](https://github.com/OpenSourceMacro/BootCamp2017#2-boot-camp-schedule)
+3. [Instructions for installing the Anaconda distribution of Python](https://github.com/OpenSourceMacro/BootCamp2017#3-instructions-for-installing-the-anaconda-distribution-of-python)
+4. [Text editor suggestions](https://github.com/OpenSourceMacro/BootCamp2017#4-text-editor-suggestions)
+5. [PEP 8, docstring commenting, and module structure](https://github.com/OpenSourceMacro/BootCamp2017#5-pep-8-docstring-commenting-and-module-structure)
+6. [Using LaTeX](https://github.com/OpenSourceMacro/BootCamp2017#6-using-latex)
+7. [Git and GitHub.com tutorial](https://github.com/OpenSourceMacro/BootCamp2017#7-git-and-github-tutorial)
+8. [Jupyter notebooks](https://github.com/OpenSourceMacro/BootCamp2017#8-jupyter-notebooks)
+9. [Python tutorials](https://github.com/OpenSourceMacro/BootCamp2017#9-python-tutorials)
+10. [References](https://github.com/OpenSourceMacro/BootCamp2017#10-references)
 
 
 ## 1. OSM Lab Leadership
