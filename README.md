@@ -1,4 +1,4 @@
-# Open Source Macroeconomics Laboratory (OSM Lab)
+# Open Source Macroeconomics Laboratory (OSM Lab) Boot Camp 2017
 
 This public repository contains the training materials, tutorials, and code for the seven-week Boot Camp of the Open Source Macroeconomics Laboratory (OSM Lab) at Becker Friedman Institute of the University of Chicago, June 19 to August 4. The OSM Lab was founded by Dr. Richard W. Evans, Senior Lecturer at the University of Chicago M.A. Program in Computational Social Science and Fellow at the Becker Friedman Institute. The OSM Lab is funded primarily from a 5-year grant from the Charles Koch Foundation. Part of this grant also included the creation of the Dynamic Analysis Center at the Baker Institute at Rice University, which is directed by John Diamond.
 
@@ -9,7 +9,7 @@ This public repository contains the training materials, tutorials, and code for 
 
 **Logistics and finances: Grace Hammond, Becker Friedman Institute [(gohammond@uchicago.edu)](mailto:gohammond@uchicago.edu)**: Grace Hammond is the Associate Director for Operations, Programs, and Finance at the Becker Friedman Institute. She coordinates the student and instructor travel, housing, and financial matters.
 
-**Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the [PDF schedule](?) or check the respective [math](?), [econ](?), and [computational](?) detailed schedule pages.
+**Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the [PDF schedule](https://github.com/rickecon/BootCamp2017/blob/master/OSM_Lab_topic_detail_2017.pdf) or check the respective [math](https://github.com/rickecon/BootCamp2017/tree/master/Math), [econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ), and [computational](https://github.com/rickecon/BootCamp2017/tree/master/Computation) detailed schedule pages.
 
 * [Thomas Sargent](http://www.tomsargent.com/), New York University
 * [Lars Hansen](http://larspeterhansen.org/), University of Chicago
