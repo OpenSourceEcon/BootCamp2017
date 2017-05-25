@@ -42,6 +42,7 @@ The OSM Lab Boot Camp begins on Monday, June 19 and ends on Friday, August 4. Cl
 Below is a summary schedule of topics. More detailed schedules are on the respective [math](https://github.com/rickecon/BootCamp2017/tree/master/Math), [econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ), and [computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) detailed schedule pages.
 
 **Week 1**
+
 | Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8:00-9:50am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10:00-11:50am) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8:00-11:50am) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-19  | M   | Introduction | Overlapping generations |              |     |
@@ -49,7 +50,9 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 6-21  | W   | Prob & stats | Overlapping generations |              |     |
 6-22  | Th  |              |                         | Python data  |     |
 6-23  | F   | Prob & stats | Overlapping generations |              | [Casey Mulligan](https://economics.uchicago.edu/directory/casey-mulligan) |
+
 **Week 2**
+
 | Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8:00-9:50am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10:00-11:50am) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8:00-11:50am) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-26  | M   | Inner product spaces | Dynamic programming |                     |     |
