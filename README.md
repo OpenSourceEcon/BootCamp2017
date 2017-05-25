@@ -3,37 +3,43 @@
 This public repository contains the training materials, tutorials, and code for the seven-week Boot Camp of the Open Source Macroeconomics Laboratory (OSM Lab) at Becker Friedman Institute of the University of Chicago, June 19 to August 4. The OSM Lab was founded by Dr. Richard W. Evans, Senior Lecturer at the University of Chicago M.A. Program in Computational Social Science and Fellow at the Becker Friedman Institute. The OSM Lab is funded primarily from a 5-year grant from the Charles Koch Foundation. Part of this grant also included the creation of the Dynamic Analysis Center at the Baker Institute at Rice University, which is directed by John Diamond.
 
 
-## OSM Lab Leadership
+## 1. OSM Lab Leadership
 
 **Director: [Dr. Richard W. Evans](https://sites.google.com/site/rickecon/) [(rwevans@uchicago.edu)](mailto:rwevans@uchicago.edu).** The Director and Founder of the OSM Lab is [Richard W. Evans](https://sites.google.com/site/rickecon/). Dr. Evans is a Senior Lecturer at the University of Chicago and a Fellow at the Becker Friedman Institute.
 
 **Logistics and finances: Grace Hammond, Becker Friedman Institute [(gohammond@uchicago.edu)](mailto:gohammond@uchicago.edu)**: Grace Hammond is the Associate Director for Operations, Programs, and Finance at the Becker Friedman Institute. She coordinates the student and instructor travel, housing, and financial matters.
 
-**Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the [PDF schedule](https://github.com/rickecon/BootCamp2017/blob/master/OSM_Lab_topic_detail_2017.pdf) or check the respective [math](https://github.com/rickecon/BootCamp2017/tree/master/Math), [econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ), and [computational](https://github.com/rickecon/BootCamp2017/tree/master/Computation) detailed schedule pages.
+**Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the [PDF schedule](https://github.com/rickecon/BootCamp2017/blob/master/OSM_Lab_topic_detail_2017.pdf) or check the respective [math](https://github.com/rickecon/BootCamp2017/tree/master/Math), [econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ), and [computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) detailed schedule pages.
 
-* [Thomas Sargent](http://www.tomsargent.com/), New York University
-* [Lars Hansen](http://larspeterhansen.org/), University of Chicago
-* [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
+Senior Instructors
 * [Jason DeBacker](http://www.jasondebacker.com/), University of South Carolina
-* [Kerk Phillips](https://sites.google.com/site/kerkphillips/home), Brigham Young University
-* [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html), University of Zurich
-* [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), ?
+* [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
+* [Lars Hansen](http://larspeterhansen.org/), University of Chicago
 * [Matthew Jensen](http://www.aei.org/scholar/matthew-h-jensen/), Open Source Policy Center, American Enterprise Institute
+* [Casey Mulligan](https://economics.uchicago.edu/directory/casey-mulligan), University of Chicago
+* [Kerk Phillips](https://sites.google.com/site/kerkphillips/home), Brigham Young University
+* [Thomas Sargent](http://www.tomsargent.com/), New York University
+* [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), ?
+* [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html), University of Zurich
 * [John Stachurski](http://johnstachurski.net/), Australia National University
 * [Viktor Tsyrennikov](https://sites.google.com/site/vtsyrennikov/), Promontory Financial Group
-* Justin Gardiner, Northwestern University
+
+Graduate Instructors
 * [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/), University of California Los Angeles
+* Justin Gardiner, Northwestern University
 
 
-## Boot Camp Schedule
+## 2. Boot Camp Schedule
 
-The OSM Lab Boot Camp begins on Monday, June 19 and ends on Friday, August 4. Classes will be held Monday through Friday, 8am to noon in Saieh Hall, Room 247 at the University of Chicago. The curriculum consists of equal parts math, economic theory, and computational methods.
+The OSM Lab Boot Camp begins on Monday, June 19 and ends on Friday, August 4. Classes will be held Monday through Friday, 8am to noon in Saieh Hall, Room 247 at the University of Chicago. Breakfast will be served every day from 7:15-8:00am. The curriculum consists of equal parts math, economic theory, and computational methods.
 
-* Math is Monday, Wednesday, Friday, 8:00-9:50am
-* Economics is Monday, Wednesday, Friday, 10:00-11:50am
-* Computational Methods is Tuesday, Thursday 8:00-11:50am
+Below is a summary schedule of topics. More detailed schedules are on the respective [math](https://github.com/rickecon/BootCamp2017/tree/master/Math), [econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ), and [computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) detailed schedule pages.
 
-Below is a summary schedule of topics. More detailed schedules are
+|      Broad topic      | Days of week |      Time      |
+|:--------------------- |:------------ | --------------:|
+| [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) | M, W, F      |  8:00-9:50am   |
+| [Economics](https://github.com/rickecon/BootCamp2017/tree/master/Econ) | M, W, F      | 10:00-11:50am  |
+| [Computational Methods](https://github.com/rickecon/BootCamp2017/tree/master/Computation) | T, Th        | 8:00 - 11:50am |
 
 We are planning on the following schedule each of the 10 workdays during that time. Let us know if we need to change this schedule in any way.
 
