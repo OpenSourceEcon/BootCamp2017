@@ -235,7 +235,7 @@ You will turn in all of your assignments by using the LaTeX document preparation
 
 We have included a tutorial on using [Git and GitHub.com](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/git_tutorial.pdf) in the [Tutorials](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Tutorials) directory of this repository. Git is a powerful version control software that comes natively installed on many machines and is widely used. GitHub.com is the most widely used online platform for hosting open source projects and integrating with Git software. Git has a significant learning curve, but it is essential for large collaborations that involve software development.
 
-A more comprehensive Git resource is *Pro Git* by Chacon and Straub (2014). This book is open access, and is available online at [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2). But I like having it in my library in hard copy. This book is the difinitive guide with everything Git, and it has as its primary application the interaction between Git and GitHub. However, the workflow described in the tutorial above was hard to find in this Git book.
+A more comprehensive Git resource is [*Pro Git*](https://git-scm.com/book/en/v2), by Chacon and Straub (2014). This book is open access, and is available online at [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2). But I like having it in my library in hard copy. This book is the difinitive guide with everything Git, and it has as its primary application the interaction between Git and GitHub. However, the workflow described in the tutorial above was hard to find in this Git book.
 
 
 ## 8. Jupyter Notebooks
@@ -304,7 +304,7 @@ Although we will be using Python for most of the Boot Camp, we will use C++ for 
 ## 11. References
 
 * Beazley, David M., *Python Essential Reference*, 4th edition, Addison-Wesley (2009).
-* Chacon, Scott and Ben Straub, *Pro Git: Everything You Need To Know About Git*, 2nd edition, Apress (2014).
+* Chacon, Scott and Ben Straub, [*Pro Git: Everything You Need To Know About Git*](https://git-scm.com/book/en/v2), 2nd edition, Apress (2014).
 * Langtangen, Hans Petter, *Python Scripting for Computational Science*, Texts in Computational Science and Engineering, 3rd edition, Springer (2010).
 * Lutz, Mark, *Learning Python*, 5th edition, O'Reilly Media, Inc. (2013)
 * McKinney, Wes, *Python for Data Analysis*, O'Reilly Media, Inc. (2013)
