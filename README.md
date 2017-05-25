@@ -281,7 +281,7 @@ For this training, we have included in this repository six basic Python tutorial
 5. [PythonVisualize.ipynb](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonVisualize.ipynb). This Jupyter notebook provides instruction on creating visualizations in Python.
 6. [PythonRootMin.ipynb](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonRootMin.ipynb). This Jupyter notebook provides instruction on implementing univariate and multivariate root finders and unconstrained and constrained minimizers using functions in the [`scipy.optimize`](https://docs.scipy.org/doc/scipy/reference/optimize.html) sub-library.
 
-To further ones Python programming skills, a number of other great resources exist.
+To further one's Python programming skills, a number of other great resources exist.
 
 * The [official Python 3 tutorial site](https://docs.python.org/3/tutorial/)
 * [QuantEcon.net](https://lectures.quantecon.org/py/index.html) is a site run by [Thomas Sargent](http://www.tomsargent.com/) (NYU Stern) and [John Stachurski](http://johnstachurski.net/) (Australia National University). QuantEcon has a very large number of high-quality economics focused computational tutorials in Python.
