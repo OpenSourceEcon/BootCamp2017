@@ -33,13 +33,30 @@ Graduate Instructors
 
 The OSM Lab Boot Camp begins on Monday, June 19 and ends on Friday, August 4. Classes will be held Monday through Friday, 8am to noon in Saieh Hall, Room 247 at the University of Chicago. Breakfast will be served every day from 7:15-8:00am. The curriculum consists of equal parts math, economic theory, and computational methods.
 
-Below is a summary schedule of topics. More detailed schedules are on the respective [math](https://github.com/rickecon/BootCamp2017/tree/master/Math), [econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ), and [computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) detailed schedule pages.
-
 |      Broad topic      | Days of week |      Time      |
 |:--------------------- |:------------ | --------------:|
 | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) | M, W, F      |  8:00-9:50am   |
 | [Economics](https://github.com/rickecon/BootCamp2017/tree/master/Econ) | M, W, F      | 10:00-11:50am  |
 | [Computational Methods](https://github.com/rickecon/BootCamp2017/tree/master/Computation) | T, Th        | 8:00 - 11:50am |
+
+Below is a summary schedule of topics. More detailed schedules are on the respective [math](https://github.com/rickecon/BootCamp2017/tree/master/Math), [econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ), and [computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) detailed schedule pages.
+
+**Week 1**
+| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8:00-9:50am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10:00-11:50am) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8:00-11:50am) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+6-19  | M   | Introduction | Overlapping generations |              |     |
+6-20  | T   |              |                         | Intro Python |     |
+6-21  | W   | Prob & stats | Overlapping generations |              |     |
+6-22  | Th  |              |                         | Python data  |     |
+6-23  | F   | Prob & stats | Overlapping generations |              | [Casey Mulligan](https://economics.uchicago.edu/directory/casey-mulligan) |
+**Week 2**
+| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8:00-9:50am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10:00-11:50am) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8:00-11:50am) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+6-26  | M   | Inner product spaces | Dynamic programming |                     |     |
+6-27  | T   |                      |                     | Data visualize      |     |
+6-28  | W   | Inner product spaces | Dynamic programming |                     |     |
+6-29  | Th  |                      |                     | Root find, minimize |     |
+6-30  | F   | Inner product spaces | Dynamic programming |                     | TBA |
 
 We are planning on the following schedule each of the 10 workdays during that time. Let us know if we need to change this schedule in any way.
 
