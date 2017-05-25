@@ -9,7 +9,7 @@ This public repository contains the training materials, tutorials, and code for 
 
 **Logistics and finances: Grace Hammond, Becker Friedman Institute [(gohammond@uchicago.edu)](mailto:gohammond@uchicago.edu)**: Grace Hammond is the Associate Director for Operations, Programs, and Finance at the Becker Friedman Institute. She coordinates the student and instructor travel, housing, and financial matters.
 
-**Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the [PDF schedule](https://github.com/rickecon/BootCamp2017/blob/master/OSM_Lab_topic_detail_2017.pdf) or check the respective [math](https://github.com/rickecon/BootCamp2017/tree/master/Math), [econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ), and [computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) detailed schedule pages.
+**Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the [PDF schedule](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/OSM_Lab_topic_detail_2017.pdf) or check the respective [math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math), [econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) detailed schedule pages.
 
 Senior Instructors
 * [Jason DeBacker](http://www.jasondebacker.com/), University of South Carolina
@@ -35,15 +35,15 @@ The OSM Lab Boot Camp begins on Monday, June 19 and ends on Friday, August 4. Cl
 
 |      Broad topic      | Days of week |      Time      |
 |:--------------------- |:------------ | --------------:|
-| [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) | M, W, F |  8:00-9:50am   |
-| [Economics](https://github.com/rickecon/BootCamp2017/tree/master/Econ) | M, W, F | 10:00-11:50am  |
-| [Computational Methods](https://github.com/rickecon/BootCamp2017/tree/master/Computation) | T, Th | 8:00 - 11:50am |
+| [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) | M, W, F |  8:00-9:50am   |
+| [Economics](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) | M, W, F | 10:00-11:50am  |
+| [Computational Methods](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) | T, Th | 8:00 - 11:50am |
 
-Below is a summary schedule of topics. More detailed schedules are on the respective [math](https://github.com/rickecon/BootCamp2017/tree/master/Math), [econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ), and [computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) detailed schedule pages.
+Below is a summary schedule of topics. More detailed schedules are on the respective [math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math), [econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) detailed schedule pages.
 
 **Week 1**
 
-| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-19  | M   | Introduction | Overlapping generations |              |     |
 6-20  | T   |              |                         | Intro Python |     |
@@ -53,7 +53,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 **Week 2**
 
-| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-26  | M   | Inner product spaces | Dynamic programming |                     |     |
 6-27  | T   |                      |                     | Data visualize      |     |
@@ -63,7 +63,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 **Week 3**
 
-| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-3  | M   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |     |
 7-4  | T   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |     |
@@ -73,7 +73,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 **Week 4**
 
-| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-10  | M   | Continuous optimization | Firm dynamics              |                     |     |
 7-11  | T   |                         |                            | Data visualization  |     |
@@ -83,7 +83,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 **Week 5**
 
-| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-17  | M   | Convex analysis     | Structural estimation: SMM |                  |     |
 7-18  | T   |                     |                            | Large data       |     |
@@ -93,7 +93,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 **Week 6**
 
-| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-24  | M   | Linear optimization    | Perturbation methods      |                      |     |
 7-25  | T   |                        |                           | HPC/parallel compute |     |
@@ -103,7 +103,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 **Week 7**
 
-| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-31 | M   | Nonlinear optimization | Macro-financial modeling |                      |     |
 8-1  | T   |                        |                          | HPC/parallel compute |     |
@@ -126,14 +126,14 @@ Pre-course Tutorial Areas
 6. Basic Python tutorials (data structures, logic, functions and modules, pandas, root finders and minimizers)
 
 
-## 1. Instructions for installing the Anaconda distribution of Python
+## 3. Instructions for installing the Anaconda distribution of Python
 
-We will be using the [Python](https://www.python.org/) programming language and many of its powerful libraries for writing the code that will run the overlapping generations models in this training. Using an open source language, such as Python, has the advantage of being free and accessible for anyone who wishes to contribute to this project. Being open source also allows Python users to go into the source code of any function to modify it to suit one's needs.
+We will be using the [Python](https://www.python.org/) programming language and many of its powerful libraries for writing the code that will run most of the computational methods we will use during the Boot Camp. Using an open source language, such as Python, has the advantage of being free and accessible for anyone who wishes to learn these materials or contribute to these projects. Being open source also allows Python users to go into the source code of any function to modify it to suit one's needs.
 
-We recommend that each participant download the Anaconda distribution of Python provided by [Continuum Analytics](https://www.continuum.io/). We recommend the most recent stable version of Python, which is currently Python 3.6. This can be done from the [Anaconda download page](https://www.continuum.io/downloads) for Windows, Mac OSX, and Linux machines. The code we will be writing uses common Python libraries such as `NumPy`, `SciPy`, `pickle`, `os`, `matplotlib`, and `time`.
+We recommend that each participant download the Anaconda distribution of Python provided by [Continuum Analytics](https://www.continuum.io/). We recommend the most recent stable version of Python, which is currently Python 3.6. This can be done from the [Anaconda download page](https://www.continuum.io/downloads) for Windows, Mac OSX, and Linux machines.
 
 
-## 2. Text editor suggestions
+## 4. Text editor suggestions
 
 In our recommended Python development workflow, you will write Python scripts and modules (`*.py` files) in a text editor. Then you will run those scripts from your terminal. You will want a capable text editor for developing your code. Many capable text editors exist, but we recommend three.
 
@@ -144,7 +144,7 @@ In our recommended Python development workflow, you will write Python scripts an
 Atom and Vim are completely free. A trial version of Sublime Text 3 is available for free, but a licensed version is $70 (US dollars). In the following subsections, we give some of the details of each of the above three text editors.
 
 
-### 2.1. Atom
+### 4.1. Atom
 
 [Atom](https://atom.io) is an open source text editor developed by people at GitHub.com. This editor has all the features of Sublime Text 3, but it also allows users full customizability. Further, it has been a while now that the users of Atom have surpassed the critical mass necessary to keep the editor progressing with the most cutting edge additions.
 
@@ -175,17 +175,17 @@ If using LaTex in this editor, the following packages are helpful:
 In addition, you will also want to download the [Skim](http://skim-app.sourceforge.net) PDF viewer to aid in displaying PDF files compiled from TeX with Atom.
 
 
-### 2.2 Sublime Text 3
+### 4.2. Sublime Text 3
 
 [Sublime Text 3](https://www.sublimetext.com) is the most widely used and versatile private software text editor. It has tremendous flexibility, as well as the polish of a piece of professional software. Sublime Text 3 will cost $70 for a license, although you can use a trial version indefinitely without charge while only having to suffer through frequent reminders to buy the full version.
 
 
-### 2.3 Vim
+### 4.3. Vim
 
 [Vim](http://www.vim.org) is free and very powerful. Vim is the hard core developer's text editor of choice. The learning curve for using vim is a little steeper than that of Atom and Sublime Text 3, but it also has some advantages for efficient programming. Vim has navigation that does not use a mouse or trackpad. Eventually, your fingers never leave your keyboard. Further, most terminals have Vim built in so you can use Vim to edit scripts and modules on the fly with your terminal session.  
 
 
-## 3. PEP 8, docstring commenting, and module structure
+## 5. PEP 8, docstring commenting, and module structure
 
 Computer code executes some set of commands in an organized way. In every case, there are often many ways to execute a set of instructions--some ways more efficient than others. However, code has at least three functions.
 
@@ -210,15 +210,20 @@ Because of the latter two characteristics, Python code has developed some conven
 
 In the text editors Atom, Sublime Text 3, and Vim, you can install Linter packages that highlight areas of your code that break PEP 8 rules and tell you what the violation is.
 
-There are fewer conventions in docstring structure, but we have developed some of our own that are outlined in the [PythonFuncs.ipynb](https://github.com/OpenRG/OG-JRC/blob/master/Tutorials/PythonFuncs.ipynb) Jupyter notebook. See especially Sections 3 and 4.
+There are fewer conventions in docstring structure, but we have developed some of our own that are outlined in the [PythonFuncs.ipynb](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonFuncs.ipynb) Jupyter notebook. See especially Sections 3 and 4 of the Jupyter notebook.
 
 
-## 4. Git and GitHub tutorial
+## 6. Using LaTeX
 
-We have included a tutorial on using [Git and GitHub.com](https://github.com/OpenRG/OG-JRC/blob/master/Tutorials/git_tutorial.pdf) in the [Tutorials](https://github.com/OpenRG/OG-JRC/tree/master/Tutorials) directory of this repository. Git is a powerful version control software that comes natively installed on many machines and is widely used. GitHub.com is the most widely used online platform for hosting open source projects and integrating with Git software. Git has a significant learning curve, but it is essential for large collaborations that involve software development.
+You will turn in all of your assignments by using the LaTeX document preparation platform. LaTeX produces documents with a sophisticated mathematical equation engine. Because LaTeX is standard in mathematical and theoretical document exposition, we will be using it in this class. The [LaTeX tutorial PDF chapter](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/LaTeX/LaTeX_tutorial.pdf) in the `/Tutorials/LaTeX/` directory is a great reference for installing and running LaTeX. We have also included in that directory a template [`LaTeX_probset_template.tex`](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/LaTeX/LaTeX_probset_template.tex) as well as the PDf file [(`LaTeX_probset_template.pdf`)](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/LaTeX/LaTeX_probset_template.pdf) generated by compiling that `.tex` file.
 
 
-## 5. Jupyter Notebooks
+## 7. Git and GitHub tutorial
+
+We have included a tutorial on using [Git and GitHub.com](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/git_tutorial.pdf) in the [Tutorials](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Tutorials) directory of this repository. Git is a powerful version control software that comes natively installed on many machines and is widely used. GitHub.com is the most widely used online platform for hosting open source projects and integrating with Git software. Git has a significant learning curve, but it is essential for large collaborations that involve software development.
+
+
+## 8. Jupyter Notebooks
 
 [Jupyter notebooks](http://jupyter.org/) are files that end with the `*.ipynb` suffix. These notebooks are opened in a browser environment and are an open source web application that combines instructional text with live executable and modifyable code for many different programming platforms (e.g., Python, R, Julia). Jupyter notebooks are an ideal tool for teaching programming as they provide the code for a user to execute and they also provide the context and explanation for the code. We have provided a number of Jupyter notebooks in the [Tutorials](https://github.com/OpenRG/OG-JRC/tree/master/Tutorials) folder of this repository.
 
