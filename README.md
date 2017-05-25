@@ -35,9 +35,9 @@ The OSM Lab Boot Camp begins on Monday, June 19 and ends on Friday, August 4. Cl
 
 |      Broad topic      | Days of week |      Time      |
 |:--------------------- |:------------ | --------------:|
-| [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) | M, W, F      |  8:00-9:50am   |
-| [Economics](https://github.com/rickecon/BootCamp2017/tree/master/Econ) | M, W, F      | 10:00-11:50am  |
-| [Computational Methods](https://github.com/rickecon/BootCamp2017/tree/master/Computation) | T, Th        | 8:00 - 11:50am |
+| [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) | M, W, F |  8:00-9:50am   |
+| [Economics](https://github.com/rickecon/BootCamp2017/tree/master/Econ) | M, W, F | 10:00-11:50am  |
+| [Computational Methods](https://github.com/rickecon/BootCamp2017/tree/master/Computation) | T, Th | 8:00 - 11:50am |
 
 Below is a summary schedule of topics. More detailed schedules are on the respective [math](https://github.com/rickecon/BootCamp2017/tree/master/Math), [econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ), and [computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) detailed schedule pages.
 
@@ -76,19 +76,45 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 | Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-10  | M   | Continuous optimization | Firm dynamics              |                     |     |
-7-11  | T   |                         |                            | Data visualize      |     |
+7-11  | T   |                         |                            | Data visualization  |     |
 7-12  | W   | Continuous optimization | Structural estimation: MLE |                     | [Lars Hansen](http://larspeterhansen.org/) |
 7-13  | Th  |                         |                            | Root find, minimize |     |
-7-14  | F   | Continuous optimization | Structural estimation: GMM |                     |     |
+7-14  | F   | Convex analysis         | Structural estimation: GMM |                     |     |
 
 **Week 5**
 
+| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+7-17  | M   | Convex analysis     | Structural estimation: SMM |                  |     |
+7-18  | T   |                     |                            | Large data       |     |
+7-19  | W   | Convex analysis     | DSGE modeling              |                  |     |
+7-20  | Th  |                     |                            | Machine learning |     |
+7-21  | F   | Linear optimization | DSGE linear approximation  |                  | TBA |
+
 **Week 6**
+
+| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+7-24  | M   | Linear optimization    | Perturbation methods      |                      |     |
+7-25  | T   |                        |                           | HPC/parallel compute |     |
+7-26  | W   | Linear optimization    | Filtering and cyclicality |                      |     |
+7-27  | Th  |                        |                           | HPC/parallel compute |     |
+7-28  | F   | Nonlinear optimization | Macro-financial modeling  |                      | TBA |
 
 **Week 7**
 
+| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+7-31 | M   | Nonlinear optimization | Macro-financial modeling |                      |     |
+8-1  | T   |                        |                          | HPC/parallel compute |     |
+8-2  | W   | Nonlinear optimization | Macro-financial modeling |                      |     |
+8-3  | Th  |                        |                          | HPC/parallel compute |     |
+8-4  | F   | Conclusion: Hwk due    | Conclusion: Hwk due      | Conclusion: Hwk due  | TBA |
 
-This will be an intensive two weeks. We are providing your researchers 7 areas of tutorials that they will benefit from reading before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
+This will be an intensive seven weeks. We expect that your attendance of lectures plus homework time will average 60 hours per week of work.
+
+
+Have provided 7 areas of tutorials that you benefit from reading before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
 
 Pre-course Tutorial Areas
 
