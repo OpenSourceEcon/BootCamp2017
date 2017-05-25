@@ -61,13 +61,24 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 6-29  | Th  |                      |                     | Root find, minimize |     |
 6-30  | F   | Inner product spaces | Dynamic programming |                     | TBA |
 
-We are planning on the following schedule each of the 10 workdays during that time. Let us know if we need to change this schedule in any way.
+** Week 3**
 
-* 9am to noon: Lecture, theory, computational instruction
-* noon to 1pm: Lunch
-* 1pm to 4pm: Guided computational practice, implementation, problem sets
+| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+7-3  | M   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |     |
+7-4  | T   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |     |
+7-5  | W   | Spectral theory     | Firm dynamics       |                      |     |
+7-6  | Th  |                     |                     | Sparse matrices, SVD |     |
+7-7  | F   | Spectral theory     | Firm dynamics       |                      | [Matthew Jensen](http://www.aei.org/scholar/matthew-h-jensen/) |
 
-We have created a series of textbook chapters complete with theoretical exposition, computational description and tips, and problem sets. These chapters and their instruction are meant to progressively build upon each other. In the end, you will be building a computational implementation of an OG model for fiscal policy that is thousands of lines of code. We will train your research group to understand each code section and to write the code in a way that is accessible, modular, scalable, and amenable to collaboration among a large group of researchers.
+** Week 4**
+
+** Week 5**
+
+** Week 6**
+
+** Week 7**
+
 
 This will be an intensive two weeks. We are providing your researchers 7 areas of tutorials that they will benefit from reading before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
 
