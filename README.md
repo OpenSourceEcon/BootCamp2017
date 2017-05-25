@@ -61,7 +61,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 6-29  | Th  |                      |                     | Root find, minimize |     |
 6-30  | F   | Inner product spaces | Dynamic programming |                     | TBA |
 
-** Week 3**
+**Week 3**
 
 | Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
