@@ -43,7 +43,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 **Week 1**
 
-| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8:00-9:50am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10:00-11:50am) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8:00-11:50am) | Lunch speaker |
+| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-19  | M   | Introduction | Overlapping generations |              |     |
 6-20  | T   |              |                         | Intro Python |     |
@@ -53,7 +53,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 **Week 2**
 
-| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8:00-9:50am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10:00-11:50am) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8:00-11:50am) | Lunch speaker |
+| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-26  | M   | Inner product spaces | Dynamic programming |                     |     |
 6-27  | T   |                      |                     | Data visualize      |     |
