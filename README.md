@@ -69,15 +69,23 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-4  | T   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |     |
 7-5  | W   | Spectral theory     | Firm dynamics       |                      |     |
 7-6  | Th  |                     |                     | Sparse matrices, SVD |     |
-7-7  | F   | Spectral theory     | Firm dynamics       |                      | [Matthew Jensen](http://www.aei.org/scholar/matthew-h-jensen/) |
+7-7  | F   | Spectral theory     | Firm dynamics       |                      | [Matt Jensen](http://www.aei.org/scholar/matthew-h-jensen/) |
 
-** Week 4**
+**Week 4**
 
-** Week 5**
+| Date | Day | [Math](https://github.com/rickecon/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/rickecon/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/rickecon/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+7-10  | M   | Continuous optimization | Firm dynamics              |                     |     |
+7-11  | T   |                         |                            | Data visualize      |     |
+7-12  | W   | Continuous optimization | Structural estimation: MLE |                     | [Lars Hansen](http://larspeterhansen.org/) |
+7-13  | Th  |                         |                            | Root find, minimize |     |
+7-14  | F   | Continuous optimization | Structural estimation: GMM |                     |     |
 
-** Week 6**
+**Week 5**
 
-** Week 7**
+**Week 6**
+
+**Week 7**
 
 
 This will be an intensive two weeks. We are providing your researchers 7 areas of tutorials that they will benefit from reading before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
