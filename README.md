@@ -13,7 +13,8 @@ This `README.md` serves as a syllabus and reference for the OSM Lab Boot Camp. T
 7. [Git and GitHub.com tutorial](https://github.com/OpenSourceMacro/BootCamp2017#7-git-and-github-tutorial)
 8. [Jupyter notebooks](https://github.com/OpenSourceMacro/BootCamp2017#8-jupyter-notebooks)
 9. [Python tutorials](https://github.com/OpenSourceMacro/BootCamp2017#9-python-tutorials)
-10. [References](https://github.com/OpenSourceMacro/BootCamp2017#10-references)
+10. [C++ tutorials]()
+11. [References](https://github.com/OpenSourceMacro/BootCamp2017#11-references)
 
 
 ## 1. OSM Lab Leadership
@@ -32,7 +33,7 @@ Senior Instructors
 * [Casey Mulligan](https://economics.uchicago.edu/directory/casey-mulligan), University of Chicago
 * [Kerk Phillips](https://sites.google.com/site/kerkphillips/home), Brigham Young University
 * [Thomas Sargent](http://www.tomsargent.com/), New York University
-* [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), ?
+* [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), University of Zurich and Hoover Institution
 * [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html), University of Zurich
 * [John Stachurski](http://johnstachurski.net/), Australia National University
 * [Viktor Tsyrennikov](https://sites.google.com/site/vtsyrennikov/), Promontory Financial Group
@@ -101,7 +102,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-17  | M   | Convex analysis     | Structural estimation: SMM |                  |     |
 7-18  | T   |                     |                            | Large data       |     |
 7-19  | W   | Convex analysis     | DSGE modeling              |                  |     |
-7-20  | Th  |                     |                            | Machine learning |     |
+7-20  | Th  |                     |                            | High dimensional approx. |     |
 7-21  | F   | Linear optimization | DSGE linear approximation  |                  | TBA |
 
 **Week 6**
@@ -291,7 +292,14 @@ To further one's Python programming skills, a number of other great resources ex
 In addition, a number of excellent textbooks and reference manuals are very helpful and may be available in your local library. Or you may just want to have these in your own library. Lutz (2013) is a giant 1,500-page reference manual that has an expansive collection of materials targeted at beginners. Beazley (2009) is a more concise reference but is targeted at readers with some experience using Python. Despite its focus on a particular set of tools in the Python programming language, McKinney (2013) has a great introductory section that can serve as a good starting tutorial. Further, its focus on Python's data analysis capabilities is truly one of the important features of Python. Rounding out the list is Langtangen (2010). This book's focus on scientists and engineers makes it a unique reference for optimization, wrapping C and Fortran and other scientific computing topics using Python.
 
 
-## 10. References
+## 10. C++ tutorials
+
+Although we will be using Python for most of the Boot Camp, we will use C++ for the computational labs taught by [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) on July, 20, 25, 27,, August 1,and 3. These computational labs treat high performance computing, parallel computing, and high dimensional approximation. Using supercomputing resources is much more accessible with C++.
+
+[TODO: Include tutorial materials here.]
+
+
+## 11. References
 
 * Beazley, David M., *Python Essential Reference*, 4th edition, Addison-Wesley (2009).
 * Langtangen, Hans Petter, *Python Scripting for Computational Science*, Texts in Computational Science and Engineering, 3rd edition, Springer (2010).
