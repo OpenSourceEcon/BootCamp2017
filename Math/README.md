@@ -58,23 +58,23 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 ### Week 6
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
-|:---:|:---:|:--- |:--- |:--- |:--- |
-7-24  | M   | Linear optimization    | Perturbation methods      |                      |     |
-7-25  | T   |                        |                           | HPC/parallel compute |     |
-7-26  | W   | Linear optimization    | Filtering and cyclicality |                      |     |
-7-27  | Th  |                        |                           | HPC/parallel compute |     |
-7-28  | F   | Nonlinear optimization | Macro-financial modeling  |                      | TBA |
+| Date | Day | Topic | Instructor | Materials |
+|:---:|:---:|:--- |:--- |:--- |
+7-24  | M   | Linear optimization    | [Jorge Barro](http://www.jorgebarro.com/) | Humpherys and Jarvis (2017, Ch. 8) |
+7-25  | T   |             |            |     |
+7-26  | W   | Linear optimization | [Jorge Barro](http://www.jorgebarro.com/) | Humpherys and Jarvis (2017, Ch. 8) |
+7-27  | Th  |             |            |     |
+7-28  | F   | Nonlinear optimization | [Jorge Barro](http://www.jorgebarro.com/) | Humpherys and Jarvis (2017, Ch. 9) |
 
 ### Week 7
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
-|:---:|:---:|:--- |:--- |:--- |:--- |
-7-31 | M   | Nonlinear optimization | Macro-financial modeling |                      |     |
-8-1  | T   |                        |                          | HPC/parallel compute |     |
-8-2  | W   | Nonlinear optimization | Macro-financial modeling |                      |     |
-8-3  | Th  |                        |                          | HPC/parallel compute |     |
-8-4  | F   | Conclusion: Hwk due    | Conclusion: Hwk due      | Conclusion: Hwk due  | TBA |
+| Date | Day | Topic | Instructor | Materials |
+|:---:|:---:|:--- |:--- |:--- |
+7-31 | M   | Nonlinear optimization | [Jorge Barro](http://www.jorgebarro.com/) | Humpherys and Jarvis (2017, Ch. 9) |
+8-1  | T   |             |           |     |
+8-2  | W   | Nonlinear optimization | [Jorge Barro](http://www.jorgebarro.com/) | Humpherys and Jarvis (2017, Ch. 9) |
+8-3  | Th  |             |           |     |
+8-4  | F   | Conclusion: Hwk due | Conclusion: Hwk due | Conclusion: Hwk due |
 
 
 ## References
