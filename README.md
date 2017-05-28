@@ -180,7 +180,7 @@ If using LaTex in this editor, the following packages are helpful:
 
 * atom-latex
 * latextools
-* autocomplete-bitex
+* autocomplete-bibtex
 * dictionary
 * latexer
 * pdf-view
