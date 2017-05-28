@@ -11,7 +11,7 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 | Date | Day | Topic | Instructor | Materials |
 |:---:|:---:|:--- |:--- |:--- |
 6-19  | M   | Introduction | [Thomas Sargent](http://www.tomsargent.com/) |    |
-6-20  | T   |              |                         | Intro Python |     |
+6-20  | T   |              |                         |      |
 6-21  | W   | Probability and statics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | Humpherys and Jarvis (2017, Ch. 3) |
 6-22  | Th  |              |                         |      |
 6-23  | F   | Probability and statics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | Humpherys and Jarvis (2017, Ch. 3) |
@@ -38,13 +38,13 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 ### Week 4
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
-|:---:|:---:|:--- |:--- |:--- |:--- |
-7-10  | M   | Continuous optimization | Firm dynamics              |                     |     |
-7-11  | T   |                         |                            | Data visualization  |     |
-7-12  | W   | Continuous optimization | Structural estimation: MLE |                     | [Lars Hansen](http://larspeterhansen.org/) |
-7-13  | Th  |                         |                            | Root find, minimize |     |
-7-14  | F   | Convex analysis         | Structural estimation: GMM |                     |     |
+| Date | Day | Topic | Instructor | Materials |
+|:---:|:---:|:--- |:--- |:--- |
+7-10  | M   | Continuous optimization | [Jorge Barro](http://www.jorgebarro.com/) | Humpherys and Jarvis (2017, Ch. 6) |
+7-11  | T   |              |                     |      |
+7-12  | W   | Continuous optimization | [Jorge Barro](http://www.jorgebarro.com/) | Humpherys and Jarvis (2017, Ch. 6) |
+7-13  | Th  |              |                     |      |
+7-14  | F   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | Humpherys and Jarvis (2017, Ch. 7) |
 
 ### Week 5
 

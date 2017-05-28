@@ -26,6 +26,7 @@ This `README.md` serves as a syllabus and reference for the OSM Lab Boot Camp. T
 **Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the [PDF schedule](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/OSM_Lab_topic_detail_2017.pdf) or check the respective [math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math), [econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) detailed schedule pages.
 
 Senior Instructors
+* [Jorge Barro](http://www.jorgebarro.com/), Rice University
 * [Jason DeBacker](http://www.jasondebacker.com/), University of South Carolina
 * [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
 * [Lars Hansen](http://larspeterhansen.org/), University of Chicago
@@ -41,6 +42,7 @@ Senior Instructors
 Graduate Instructors
 * [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/), University of California Los Angeles
 * Justin Gardiner, Northwestern University
+* John Van den Berghe, University of Chicago
 
 
 ## 2. Boot Camp Schedule
@@ -55,7 +57,7 @@ The OSM Lab Boot Camp begins on Monday, June 19 and ends on Friday, August 4. Cl
 
 Below is a summary schedule of topics. More detailed schedules are on the respective [math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math), [econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) detailed schedule pages.
 
-**Week 1**
+### Week 1
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
@@ -65,7 +67,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 6-22  | Th  |              |                         | Python data  |     |
 6-23  | F   | Prob & stats | Overlapping generations |              |     |
 
-**Week 2**
+### Week 2
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
@@ -75,7 +77,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 6-29  | Th  |                      |                     | Root find, minimize |     |
 6-30  | F   | Inner product spaces | Dynamic programming |                     | TBA |
 
-**Week 3**
+### Week 3
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
@@ -85,7 +87,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-6  | Th  |                     |                     | Sparse matrices, SVD |     |
 7-7  | F   | Spectral theory     | Firm dynamics       |                      | [Matt Jensen](http://www.aei.org/scholar/matthew-h-jensen/) |
 
-**Week 4**
+### Week 4
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
@@ -95,7 +97,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-13  | Th  |                         |                            | Root find, minimize |     |
 7-14  | F   | Convex analysis         | Structural estimation: GMM |                     |     |
 
-**Week 5**
+### Week 5
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
@@ -105,7 +107,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-20  | Th  |                     |                            | High dimensional approx. |     |
 7-21  | F   | Linear optimization | DSGE linear approximation  |                  | TBA |
 
-**Week 6**
+### Week 6
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
@@ -115,7 +117,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-27  | Th  |                        |                           | HPC/parallel compute |     |
 7-28  | F   | Nonlinear optimization | Macro-financial modeling  |                      | TBA |
 
-**Week 7**
+### Week 7
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
