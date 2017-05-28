@@ -1,11 +1,84 @@
 # OSM Lab: Mathematics Section Materials
 
-This directory in the repository contains all the materials for the math section of the OSM Lab Boot Camp.
+This directory in the repository contains all the materials for the Math section of the OSM Lab Boot Camp.
+
+## Schedule
+
+The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesday, and Friday in Saiah Hall, Room 247.
+
+### Week 1
+
+| Date | Day | Topic | Instructor | Materials |
+|:---:|:---:|:--- |:--- |:--- |
+6-19  | M   | Introduction | Thomas Sargent |    |
+6-20  | T   |              |                         | Intro Python |     |
+6-21  | W   | Probability and statics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | Humpherys and Jarvis (2017, Ch. 3) |
+6-22  | Th  |              |                         |      |
+6-23  | F   | Probability and statics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | Humpherys and Jarvis (2017, Ch. 3) |
+
+### Week 2
+
+| Date | Day | Topic | Instructor | Materials |
+|:---:|:---:|:--- |:--- |:--- |
+6-26  | M   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | Humpherys, Jarvis, Evans (2017, Ch. 3) |
+6-27  | T   |                      |                     |     |
+6-28  | W   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | Humpherys, Jarvis, Evans (2017, Ch. 3) |
+6-29  | Th  |                      |                     |     |
+6-30  | F   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | Humpherys, Jarvis, Evans (2017, Ch. 3) |
+
+### Week 3
+
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+7-3  | M   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |     |
+7-4  | T   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |     |
+7-5  | W   | Spectral theory     | Firm dynamics       |                      |     |
+7-6  | Th  |                     |                     | Sparse matrices, SVD |     |
+7-7  | F   | Spectral theory     | Firm dynamics       |                      | [Matt Jensen](http://www.aei.org/scholar/matthew-h-jensen/) |
+
+### Week 4
+
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+7-10  | M   | Continuous optimization | Firm dynamics              |                     |     |
+7-11  | T   |                         |                            | Data visualization  |     |
+7-12  | W   | Continuous optimization | Structural estimation: MLE |                     | [Lars Hansen](http://larspeterhansen.org/) |
+7-13  | Th  |                         |                            | Root find, minimize |     |
+7-14  | F   | Convex analysis         | Structural estimation: GMM |                     |     |
+
+### Week 5
+
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+7-17  | M   | Convex analysis     | Structural estimation: SMM |                  |     |
+7-18  | T   |                     |                            | Large data       |     |
+7-19  | W   | Convex analysis     | DSGE modeling              |                  |     |
+7-20  | Th  |                     |                            | High dimensional approx. |     |
+7-21  | F   | Linear optimization | DSGE linear approximation  |                  | TBA |
+
+### Week 6
+
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+7-24  | M   | Linear optimization    | Perturbation methods      |                      |     |
+7-25  | T   |                        |                           | HPC/parallel compute |     |
+7-26  | W   | Linear optimization    | Filtering and cyclicality |                      |     |
+7-27  | Th  |                        |                           | HPC/parallel compute |     |
+7-28  | F   | Nonlinear optimization | Macro-financial modeling  |                      | TBA |
+
+### Week 7
+
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+|:---:|:---:|:--- |:--- |:--- |:--- |
+7-31 | M   | Nonlinear optimization | Macro-financial modeling |                      |     |
+8-1  | T   |                        |                          | HPC/parallel compute |     |
+8-2  | W   | Nonlinear optimization | Macro-financial modeling |                      |     |
+8-3  | Th  |                        |                          | HPC/parallel compute |     |
+8-4  | F   | Conclusion: Hwk due    | Conclusion: Hwk due      | Conclusion: Hwk due  | TBA |
+
 
 ## References
 
-* Beazley, David M., *Python Essential Reference*, 4th edition, Addison-Wesley (2009).
-* Langtangen, Hans Petter, *Python Scripting for Computational Science*, Texts in Computational Science and Engineering, 3rd edition, Springer (2010).
-* Lutz, Mark, *Learning Python*, 5th edition, O'Reilly Media, Inc. (2013)
-* McKinney, Wes, *Python for Data Analysis*, O'Reilly Median, Inc. (2013)
+* Humpherys, Jeffrey, Tyler J. Jarvis, and Emily J. Evans, *Foundations of Applied Mathematics: Volume I: Mathematical Analysis*, SIAM (2017, forthcoming).
+* Humpherys, Jeffrey and Tyler J. Jarvis, *Foudations of Applied Mathematics, Volume II: Algorithm Design and Optimization*, SIAM (2017, forthcoming).
 
