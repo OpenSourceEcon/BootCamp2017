@@ -48,13 +48,13 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 ### Week 5
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
-|:---:|:---:|:--- |:--- |:--- |:--- |
-7-17  | M   | Convex analysis     | Structural estimation: SMM |                  |     |
-7-18  | T   |                     |                            | Large data       |     |
-7-19  | W   | Convex analysis     | DSGE modeling              |                  |     |
-7-20  | Th  |                     |                            | High dimensional approx. |     |
-7-21  | F   | Linear optimization | DSGE linear approximation  |                  | TBA |
+| Date | Day | Topic | Instructor | Materials |
+|:---:|:---:|:--- |:--- |:--- |
+7-17  | M   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | Humpherys and Jarvis (2017, Ch. 7) |
+7-18  | T   |            |           |      |
+7-19  | W   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | Humpherys and Jarvis (2017, Ch. 7) |
+7-20  | Th  |            |           |     |
+7-21  | F   | Linear optimization | [Jorge Barro](http://www.jorgebarro.com/) | Humpherys and Jarvis (2017, Ch. 8) |
 
 ### Week 6
 
