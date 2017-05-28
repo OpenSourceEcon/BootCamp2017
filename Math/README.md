@@ -10,7 +10,7 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials |
 |:---:|:---:|:--- |:--- |:--- |
-6-19  | M   | Introduction | Thomas Sargent |    |
+6-19  | M   | Introduction | [Thomas Sargent](http://www.tomsargent.com/) |    |
 6-20  | T   |              |                         | Intro Python |     |
 6-21  | W   | Probability and statics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | Humpherys and Jarvis (2017, Ch. 3) |
 6-22  | Th  |              |                         |      |
@@ -28,13 +28,13 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 ### Week 3
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
-|:---:|:---:|:--- |:--- |:--- |:--- |
-7-3  | M   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |     |
-7-4  | T   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |     |
-7-5  | W   | Spectral theory     | Firm dynamics       |                      |     |
-7-6  | Th  |                     |                     | Sparse matrices, SVD |     |
-7-7  | F   | Spectral theory     | Firm dynamics       |                      | [Matt Jensen](http://www.aei.org/scholar/matthew-h-jensen/) |
+| Date | Day | Topic | Instructor | Materials |
+|:---:|:---:|:--- |:--- |:--- |
+7-3  | M   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |
+7-4  | T   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |
+7-5  | W   | Spectral theory     | John Van den Berghe | Humpherys, Jarvis, Evans (2017, Ch. 4) |
+7-6  | Th  |                     |                     |     |
+7-7  | F   | Spectral theory     | John Van den Berghe | Humpherys, Jarvis, Evans (2017, Ch. 4) |
 
 ### Week 4
 
