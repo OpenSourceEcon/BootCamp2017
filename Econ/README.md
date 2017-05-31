@@ -10,11 +10,11 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 | Date | Day | Topic | Instructor | Materials | Prob set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-19  | M   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)| ED (2017, Ch. 5) | Econ Prob Set 1 |
-6-20  | T   |       |                |        | due M, 6.26
-6-21  | W   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)| ED (2017, Ch. 5) | 8am |
+6-19  | M   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)| [ED (2017, Ch. 5)](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk1_OG/OGtext_ch5.pdf) | Econ Prob Set 1 |
+6-20  | T   |       |                |        | due M, 6-26, 8am
+6-21  | W   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)| [ED (2017, Ch. 5)](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk1_OG/OGtext_ch5.pdf) |     |
 6-22  | Th  |       |                |     |     |
-6-23  | F   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)| ED (2017, Ch. 5) |      |
+6-23  | F   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)| [ED (2017, Ch. 5)](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk1_OG/OGtext_ch5.pdf) |      |
 
 ### Week 2
 
