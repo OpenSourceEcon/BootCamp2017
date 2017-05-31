@@ -8,13 +8,13 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 ### Week 1
 
-| Date | Day | Topic | Instructor | Materials |
-|:---:|:---:|:--- |:--- |:--- |
-6-19  | M   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)|  |
-6-20  | T   |       |                |        |
-6-21  | W   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)|  |
-6-22  | Th  |       |                |     |
-6-23  | F   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)|  |
+| Date | Day | Topic | Instructor | Materials | Prob set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+6-19  | M   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)| ED (2017, Ch. 5) | Econ Prob Set 1 |
+6-20  | T   |       |                |        | due M, 6.26
+6-21  | W   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)| ED (2017, Ch. 5) | 8am |
+6-22  | Th  |       |                |     |     |
+6-23  | F   | Overlapping generations model | * [Richard Evans](https://sites.google.com/site/rickecon/)| ED (2017, Ch. 5) |      |
 
 ### Week 2
 
