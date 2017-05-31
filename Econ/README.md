@@ -4,7 +4,7 @@ This directory in the repository contains all the materials for the Economics se
 
 ## Schedule
 
-The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, Wednesday, and Friday in Saiah Hall, Room 247.
+The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, Wednesday, and Friday in Saieh Hall, Room 247.
 
 ### Week 1
 

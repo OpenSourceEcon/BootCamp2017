@@ -4,7 +4,7 @@ This directory in the repository contains all the materials for the Math section
 
 ## Schedule
 
-The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesday, and Friday in Saiah Hall, Room 247.
+The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesday, and Friday in Saieh Hall, Room 247.
 
 ### Week 1
 
