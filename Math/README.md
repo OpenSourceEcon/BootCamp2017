@@ -38,43 +38,43 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 ### Week 4
 
-| Date | Day | Topic | Instructor | Materials |
-|:---:|:---:|:--- |:--- |:--- |
-7-10  | M   | Continuous optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 6) |
-7-11  | T   |              |                     |      |
-7-12  | W   | Continuous optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 6) |
-7-13  | Th  |              |                     |      |
-7-14  | F   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 7) |
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-10  | M   | Continuous optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 6) | Math Prob Set 4 |
+7-11  | T   |             |              |      | due M, 7-14, 8am |
+7-12  | W   | Continuous optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 6) |  |
+7-13  | Th  |              |                     |      |  |
+7-14  | F   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 7) |  |
 
 ### Week 5
 
-| Date | Day | Topic | Instructor | Materials |
-|:---:|:---:|:--- |:--- |:--- |
-7-17  | M   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 7) |
-7-18  | T   |            |           |      |
-7-19  | W   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 7) |
-7-20  | Th  |            |           |     |
-7-21  | F   | Linear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 8) |
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-17  | M   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 7) | Math Prob Set 5 |
+7-18  | T   |            |           |      | due M, 7-24, 8am |
+7-19  | W   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 7) |  |
+7-20  | Th  |            |           |     |  |
+7-21  | F   | Linear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 8) |  |
 
 ### Week 6
 
-| Date | Day | Topic | Instructor | Materials |
-|:---:|:---:|:--- |:--- |:--- |
-7-24  | M   | Linear optimization    | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 8) |
-7-25  | T   |             |            |     |
-7-26  | W   | Linear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 8) |
-7-27  | Th  |             |            |     |
-7-28  | F   | Nonlinear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 9) |
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-24  | M   | Linear optimization    | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 8) | Math Prob Set 6 |
+7-25  | T   |             |            |     | due M, 7-31, 8am |
+7-26  | W   | Linear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 8) |  |
+7-27  | Th  |             |            |     |  |
+7-28  | F   | Nonlinear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 9) |  |
 
 ### Week 7
 
-| Date | Day | Topic | Instructor | Materials |
-|:---:|:---:|:--- |:--- |:--- |
-7-31 | M   | Nonlinear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 9) |
-8-1  | T   |             |           |     |
-8-2  | W   | Nonlinear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 9) |
-8-3  | Th  |             |           |     |
-8-4  | F   | Conclusion: Hwk due | Conclusion: Hwk due | Conclusion: Hwk due |
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-31 | M   | Nonlinear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 9) | Math Prob Set 7 |
+8-1  | T   |             |           |     | due F, 8-4, 8am |
+8-2  | W   | Nonlinear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 9) |  |
+8-3  | Th  |             |           |     |  |
+8-4  | F   | Conclusion: Hwk due | Conclusion: Hwk due | Conclusion: Hwk due |  |
 
 
 ## References
