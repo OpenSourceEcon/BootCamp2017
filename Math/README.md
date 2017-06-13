@@ -20,21 +20,21 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-26  | M   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | HJE (2017, Ch. 3) |  |
-6-27  | T   |                      |                     |     |  |
+6-26  | M   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | HJE (2017, Ch. 3) | Math Prob Set 2  |
+6-27  | T   |                      |         |     | due W, 7-5, 8am |
 6-28  | W   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | HJE (2017, Ch. 3) |  |
 6-29  | Th  |                      |                     |     |  |
 6-30  | F   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | HJE (2017, Ch. 3) |  |
 
 ### Week 3
 
-| Date | Day | Topic | Instructor | Materials |
-|:---:|:---:|:--- |:--- |:--- |
-7-3  | M   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |
-7-4  | T   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |
-7-5  | W   | Spectral theory     | John Van den Berghe | HJE (2017, Ch. 4) |
-7-6  | Th  |                     |                     |     |
-7-7  | F   | Spectral theory     | John Van den Berghe | HJE (2017, Ch. 4) |
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-3  | M   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |   |
+7-4  | T   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |   |
+7-5  | W   | Spectral theory     | John Van den Berghe | HJE (2017, Ch. 4) | Math Prob Set 3 |
+7-6  | Th  |               |             |     | due M, 7-10, 8am |
+7-7  | F   | Spectral theory     | John Van den Berghe | HJE (2017, Ch. 4) |  |
 
 ### Week 4
 
