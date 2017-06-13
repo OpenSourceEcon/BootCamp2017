@@ -8,23 +8,23 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 ### Week 1
 
-| Date | Day | Topic | Instructor | Materials |
-|:---:|:---:|:--- |:--- |:--- |
-6-19  | M   | Introduction | [Thomas Sargent](http://www.tomsargent.com/) |    |
-6-20  | T   |              |                         |      |
-6-21  | W   | Probability and statics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | Humpherys and Jarvis (2017, Ch. 3) |
-6-22  | Th  |              |                         |      |
-6-23  | F   | Probability and statics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | Humpherys and Jarvis (2017, Ch. 3) |
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+6-19  | M   | Introduction | [Thomas Sargent](http://www.tomsargent.com/) |    |   |
+6-20  | T   |              |                         |      |   |
+6-21  | W   | Probability and statics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | Humpherys and Jarvis (2017, Ch. 3) | Math Prob Set 1  |
+6-22  | Th  |              |                |      | due M, 6-26, 8am |
+6-23  | F   | Probability and statics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | Humpherys and Jarvis (2017, Ch. 3) |   |
 
 ### Week 2
 
-| Date | Day | Topic | Instructor | Materials |
-|:---:|:---:|:--- |:--- |:--- |
-6-26  | M   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | Humpherys, Jarvis, Evans (2017, Ch. 3) |
-6-27  | T   |                      |                     |     |
-6-28  | W   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | Humpherys, Jarvis, Evans (2017, Ch. 3) |
-6-29  | Th  |                      |                     |     |
-6-30  | F   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | Humpherys, Jarvis, Evans (2017, Ch. 3) |
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+6-26  | M   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | Humpherys, Jarvis, Evans (2017, Ch. 3) |  |
+6-27  | T   |                      |                     |     |  |
+6-28  | W   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | Humpherys, Jarvis, Evans (2017, Ch. 3) |  |
+6-29  | Th  |                      |                     |     |  |
+6-30  | F   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | Humpherys, Jarvis, Evans (2017, Ch. 3) |  |
 
 ### Week 3
 
