@@ -42,15 +42,15 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-10  | M   | Firm dynamics | [Jason DeBacker](http://www.jasondebacker.com/) |  |  |
 7-11  | T   |              |                     |      |  |
-7-12  | W   | Structural estimation: MLE | [Richard Evans](https://sites.google.com/site/rickecon/) |       |  |
-7-13  | Th  |              |                     |      |  |
-7-14  | F   | Structural estimation: GMM | [Richard Evans](https://sites.google.com/site/rickecon/) |       |  |
+7-12  | W   | Structural estimation: MLE | [Richard Evans](https://sites.google.com/site/rickecon/) | [MLE Jupyter Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk4_StrEst/MLest.ipynb) | [Econ Prob Set 4]() |
+7-13  | Th  |          |           |      | due W, 7-19, 8am |
+7-14  | F   | Structural estimation: GMM | [Richard Evans](https://sites.google.com/site/rickecon/) | [GMM Jupyter Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk4_StrEst/GMMest.ipynb) |  |
 
 ### Week 5
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-17  | M   | Structural estimation: SMM | [Richard Evans](https://sites.google.com/site/rickecon/) |    |  |
+7-17  | M   | Structural estimation: SMM | [Richard Evans](https://sites.google.com/site/rickecon/) | [SMM Jupyter Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk4_StrEst/SMMest.ipynb)    |  |
 7-18  | T   |            |           |      |  |
 7-19  | W   | DSGE modeling | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |   [DSGE Notes](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_6_DSGE_Filters/Chapter_DSGE.pdf) | Exercises 1-6 |
 7-20  | Th  |            |           |     |  |
