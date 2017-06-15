@@ -52,17 +52,17 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-17  | M   | Structural estimation: SMM | [Richard Evans](https://sites.google.com/site/rickecon/) |    |  |
 7-18  | T   |            |           |      |  |
-7-19  | W   | DSGE modeling | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |   [DSGE Model Chapter](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_5_DSGE_Filters/Chapter_DSGE.pdf) | Exercises 1-6 |
+7-19  | W   | DSGE modeling | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |   [DSGE Notes](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_6_DSGE_Filters/Chapter_DSGE.pdf) | Exercises 1-6 |
 7-20  | Th  |            |           |     |  |
-7-21  | F   | DSGE linear approximation | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |   [Linearization Chapter](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_5_DSGE_Filters/Chapter_Linear.pdf) | Exercises 1-11 |
+7-21  | F   | DSGE linear approximation | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |   [Linearization Notes](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_6_DSGE_Filters/Chapter_Linear.pdf) | Exercises 1-11 |
 
 ### Week 6
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-24  | M   | Perturbation methods    | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |   [Perturbation Methods Chapter](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_5_DSGE_Filters/Chapter_Perturb.pdf) | Exercises 1-5 |
+7-24  | M   | Perturbation methods    | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |   [Perturbation Methods Notes](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_6_DSGE_Filters/Chapter_Perturb.pdf) | Exercises 1-5 |
 7-25  | T   |             |            |     |  |
-7-26  | W   | Filtering and cyclicality | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |    [DSGE Model Chapter](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_5_DSGE_Filters/Chapter_Filter.pdf) | Exercises 1-6 |
+7-26  | W   | Filtering and cyclicality | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |    [Filtering Notes](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_6_DSGE_Filters/Chapter_Filter.pdf) | Exercises 1-6 |
 7-27  | Th  |             |            |     |  |
 7-28  | F   | Macro-financial modeling | [Richard Evans](https://sites.google.com/site/rickecon/) |    |  |
 
