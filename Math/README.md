@@ -12,9 +12,9 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 |:---:|:---:|:--- |:--- |:--- | --- |
 6-19  | M   | Introduction | [Thomas Sargent](http://www.tomsargent.com/) |    |   |
 6-20  | T   |              |                         |      |   |
-6-21  | W   | Probability and statics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | HJ (2017, Ch. 3) | Math Prob Set 1  |
+6-21  | W   | Probability and statistics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | HJ (2017, Ch. 3) | Math Prob Set 1  |
 6-22  | Th  |              |                |      | due M, 6-26, 8am |
-6-23  | F   | Probability and statics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | HJ (2017, Ch. 3) |   |
+6-23  | F   | Probability and statistics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | HJ (2017, Ch. 3) |   |
 
 ### Week 2
 
@@ -80,5 +80,5 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 ## References
 
 * Humpherys, Jeffrey, Tyler J. Jarvis, and Emily J. Evans, *Foundations of Applied Mathematics: Volume I: Mathematical Analysis*, SIAM (2017, forthcoming).
-* Humpherys, Jeffrey and Tyler J. Jarvis, *Foudations of Applied Mathematics, Volume II: Algorithm Design and Optimization*, SIAM (2017, forthcoming).
+* Humpherys, Jeffrey and Tyler J. Jarvis, *Foundations of Applied Mathematics, Volume II: Algorithm Design and Optimization*, SIAM (2017, forthcoming).
 
