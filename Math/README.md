@@ -12,7 +12,7 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 |:---:|:---:|:--- |:--- |:--- | --- |
 6-19  | M   | Introduction | [Thomas Sargent](http://www.tomsargent.com/) |    |   |
 6-20  | T   |              |                         |      |   |
-6-21  | W   | Probability and statistics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | HJ (2017, Ch. 3) | Math Prob Set 1  |
+6-21  | W   | Probability and statistics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | HJ (2017, Ch. 3) | [Math Prob Set 1](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Math/Wk1_ProbStat/ProbStat_probset.pdf)  |
 6-22  | Th  |              |                |      | due M, 6-26, 8am |
 6-23  | F   | Probability and statistics | [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html) | HJ (2017, Ch. 3) |   |
 
