@@ -41,40 +41,40 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-10  | M   | Firm dynamics | [Jason DeBacker](http://www.jasondebacker.com/) |  |  |
-7-11  | T   |              |                     |      |  |
-7-12  | W   | Structural estimation: MLE | [Richard Evans](https://sites.google.com/site/rickecon/) | [MLE Jupyter Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk4_StrEst/MLest.ipynb) | Econ Prob Set 4 |
-7-13  | Th  |          |           |      | due W, 7-19, 8am |
-7-14  | F   | Structural estimation: GMM | [Richard Evans](https://sites.google.com/site/rickecon/) | [GMM Jupyter Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk4_StrEst/GMMest.ipynb) |  |
+7-10  | M   |     |     |     |     |
+7-11  | T   | Justin Gardiner |                     |      |  |
+7-12  | W   |     |     |     |     |
+7-13  | Th  | Justin Gardiner |           |      |  |
+7-14  | F   |     |     |     |     |
 
 ### Week 5
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-17  | M   | Structural estimation: SMM | [Richard Evans](https://sites.google.com/site/rickecon/) | [SMM Jupyter Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk4_StrEst/SMMest.ipynb)    |  |
-7-18  | T   |            |           |      |  |
-7-19  | W   | DSGE modeling | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |   [DSGE Notes](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_6_DSGE_Filters/Chapter_DSGE.pdf) | [Econ Prob Set 5](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_6_DSGE_Filters/DSGE_probset.pdf) |
-7-20  | Th  |            |           |     | due F, 7-28, 8am  |
-7-21  | F   | DSGE linear approximation | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |   [Linearization Notes](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_6_DSGE_Filters/Chapter_Linear.pdf) |   |
+7-17  | M   |     |     |     |     |
+7-18  | T   | Justin Gardiner |           |      |  |
+7-19  | W   |     |     |     |     |
+7-20  | Th  | Simon Scheidegger | Adaptive sparse grids, Smolyak |     |   |
+7-21  | F   |     |     |     |     |
 
 ### Week 6
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-24  | M   | Perturbation methods    | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |   [Perturbation Methods Notes](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_6_DSGE_Filters/Chapter_Perturb.pdf) |   |
-7-25  | T   |             |            |     |  |
-7-26  | W   | Filtering and cyclicality | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |    [Filtering Notes](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_6_DSGE_Filters/Chapter_Filter.pdf) |   |
-7-27  | Th  |             |            |     |  |
-7-28  | F   | Macro-financial modeling | [Richard Evans](https://sites.google.com/site/rickecon/) |    |  |
+7-24  | M   |     |     |     |     |
+7-25  | T   | Simon Scheidegger | HPC, parallel computing |     |  |
+7-26  | W   |     |     |     |     |
+7-27  | Th  | Simon Scheidegger  | HPC, parallel computing |     |  |
+7-28  | F   |     |     |     |     |
 
 ### Week 7
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-31 | M   | Macro-financial modeling | [Viktor Tsyrennikov](https://sites.google.com/site/vtsyrennikov/) |   |  |
-8-1  | T   |             |           |     |  |
-8-2  | W   | Macro-financial modeling | [Viktor Tsyrennikov](https://sites.google.com/site/vtsyrennikov/) |  |  |
-8-3  | Th  |             |           |     |  |
+7-31 | M   |      |     |     |     |
+8-1  | T   | Simon Scheidegger | HPC, parallel computing |     |  |
+8-2  | W   |      |     |     |     |
+8-3  | Th  | Simon Scheidegger | HPC, parallel computing |     |  |
 8-4  | F   | Conclusion: Hwk due |  |  |  |
 
 
