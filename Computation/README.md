@@ -42,9 +42,9 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-10  | M   |     |     |     |     |
-7-11  | T   | Justin Gardiner |                     |      |  |
-7-12  | W   |     |     |     |     |
-7-13  | Th  | Justin Gardiner |           |      |  |
+7-11  | T   |  | Justin Gardiner |      | Comp Prob Set 4  |
+7-12  | W   |     |     |     | due Th, 7-20, 8am |
+7-13  | Th  |  | Justin Gardiner |      |  |
 7-14  | F   |     |     |     |     |
 
 ### Week 5
@@ -52,19 +52,19 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-17  | M   |     |     |     |     |
-7-18  | T   | Justin Gardiner |           |      |  |
+7-18  | T   |  | Justin Gardiner |      |  |
 7-19  | W   |     |     |     |     |
-7-20  | Th  | Simon Scheidegger | Adaptive sparse grids, Smolyak |     |   |
-7-21  | F   |     |     |     |     |
+7-20  | Th  | Adaptive sparse grids, Smolyak | Simon Scheidegger |  | Comp Prob Set 5 |
+7-21  | F   |     |     |     | due T, 7-25, 8am    |
 
 ### Week 6
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-24  | M   |     |     |     |     |
-7-25  | T   | Simon Scheidegger | HPC, parallel computing |     |  |
-7-26  | W   |     |     |     |     |
-7-27  | Th  | Simon Scheidegger  | HPC, parallel computing |     |  |
+7-25  | T   | HPC, parallel computing | Simon Scheidegger |  | Comp Prob Set 6 |
+7-26  | W   |     |     |     | due T, 8-1, 8am |
+7-27  | Th  | HPC, parallel computing | Simon Scheidegger |  |  |
 7-28  | F   |     |     |     |     |
 
 ### Week 7
@@ -72,9 +72,9 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-31 | M   |      |     |     |     |
-8-1  | T   | Simon Scheidegger | HPC, parallel computing |     |  |
-8-2  | W   |      |     |     |     |
-8-3  | Th  | Simon Scheidegger | HPC, parallel computing |     |  |
+8-1  | T   | HPC, parallel computing | Simon Scheidegger |  | Comp Prob Set 7  |
+8-2  | W   |      |     |     | due F, 8-4, 8am |
+8-3  | Th  | HPC, parallel computing | Simon Scheidegger |  |  |
 8-4  | F   | Conclusion: Hwk due |  |  |  |
 
 
