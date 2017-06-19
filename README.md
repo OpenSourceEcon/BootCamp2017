@@ -23,7 +23,7 @@ This `README.md` serves as a syllabus and reference for the OSM Lab Boot Camp. T
 
 **Logistics and finances: Grace Hammond, Becker Friedman Institute [(gohammond@uchicago.edu)](mailto:gohammond@uchicago.edu)**: Grace Hammond is the Associate Director for Operations, Programs, and Finance at the Becker Friedman Institute. She coordinates the student and instructor travel, housing, and financial matters.
 
-**Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the [PDF schedule](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/OSM_Lab_topic_detail_2017.pdf) or check the respective [math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math), [econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) detailed schedule pages.
+**Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the respective [math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math), [econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) detailed schedule pages.
 
 Senior Instructors
 * [Jorge Barro](http://www.jorgebarro.com/), Rice University
