@@ -5,7 +5,7 @@ This directory in the repository contains all the materials for the computationa
 
 ## Schedule
 
-The computational methods lab sessions for the OSM Lab will be held from 8:00-11:50am, Tuesday and Thursday in Saieh Hall, Room 247.
+The computational methods lab sessions for the OSM Lab will be held from 8:00-11:50am, Tuesday and Thursday in Saieh Hall, Room 247. The lab files in the schedule under the "Materials column" that start with "ACME" come from the Brigham Young University Math Department's [Applied and Computational Math Emphasis (ACME program)](http://www.acme.byu.edu/). These computational labs are open source. We cover only a subset of these excellent applied math Python labs, which are available in their entirety at [http://www.acme.byu.edu/2016-2017-materials/](http://www.acme.byu.edu/2016-2017-materials/). We highly recommend that you take time after the Boot Camp to work through some of the other labs that are available to you.
 
 ### Week 1
 
@@ -80,8 +80,5 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 
 ## References
 
-* Beazley, David M., *Python Essential Reference*, 4th edition, Addison-Wesley (2009).
-* Langtangen, Hans Petter, *Python Scripting for Computational Science*, Texts in Computational Science and Engineering, 3rd edition, Springer (2010).
-* Lutz, Mark, *Learning Python*, 5th edition, O'Reilly Media, Inc. (2013)
-* McKinney, Wes, *Python for Data Analysis*, O'Reilly Median, Inc. (2013)
+* Humpherys, Jeffrey, "[Computational Labs for *Foundations of Applied Mathematics*](http://www.acme.byu.edu/2016-2017-materials/)" (2017).
 
