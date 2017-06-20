@@ -62,9 +62,9 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-19  | M   | Introduction | Overlapping generations |              | [Casey Mulligan](https://economics.uchicago.edu/directory/casey-mulligan) |
-6-20  | T   |              |                         | Intro Python |     |
+6-20  | T   |              |                         | Python intro, standard library |     |
 6-21  | W   | Prob & stats | Overlapping generations |              |     |
-6-22  | Th  |              |                         | Python data  |     |
+6-22  | Th  |              |                         | Object oriented programming |     |
 6-23  | F   | Prob & stats | Overlapping generations |              |     |
 
 ### Week 2
@@ -72,7 +72,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-26  | M   | Inner product spaces | Dynamic programming |                     |     |
-6-27  | T   |                      |                     | Data visualize      |     |
+6-27  | T   |                      |                     | Data visualization  |     |
 6-28  | W   | Inner product spaces | Dynamic programming |                     |     |
 6-29  | Th  |                      |                     | Root find, minimize |     |
 6-30  | F   | Inner product spaces | Dynamic programming |                     | TBA |
