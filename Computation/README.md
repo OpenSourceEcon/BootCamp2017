@@ -3,6 +3,20 @@
 This directory in the repository contains all the materials for the computational methods section of the OSM Lab Boot Camp.
 
 
+## Prerequisite and tutorial resources
+
+We expect students in the Boot Camp to be jumping into Python at a level beyond an absolute beginner. Some Great resources for getting to that point include the following Jupyter Notebooks in the [Tutorials](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Tutorials) folder of this repository.
+
+1. [PythonReadIn.ipynb](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonReadIn.ipynb). This Jupyter notebook provides instruction on basic Python I/O, reading data into Python, and saving data to disk.
+2. [PythonNumpyPandas.ipynb](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonNumpyPandas.ipynb). This Jupyter notebook provides instruction on working with data using `NumPy` as well as Python's powerful data library `pandas`.
+3. [PythonDescribe.ipynb](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonDescribe.ipynb). This Jupyter notebook provides instruction on describing, slicing, and manipulating data in Python.
+4. [PythonFuncs.ipynb](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonFuncs.ipynb). This Jupyter notebook provides instruction on working with and writing Python functions.
+5. [PythonVisualize.ipynb](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonVisualize.ipynb). This Jupyter notebook provides instruction on creating visualizations in Python.
+6. [PythonRootMin.ipynb](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonRootMin.ipynb). This Jupyter notebook provides instruction on implementing univariate and multivariate root finders and unconstrained and constrained minimizers using functions in the [`scipy.optimize`](https://docs.scipy.org/doc/scipy/reference/optimize.html) sub-library.
+
+We also recommend the ["Intro to Python" lab](http://www.acme.byu.edu/wp-content/uploads/2016/08/PythonIntro.pdf) from Brigham Young University's Math Department's Applied and Computational Math Emphasis (ACME) as well as the ["An Introductory Example"](https://lectures.quantecon.org/py/python_by_example.html) and ["Python Essentials"](https://lectures.quantecon.org/py/python_essentials.html) lectures from [QuantEcon](https://lectures.quantecon.org/py/).
+
+
 ## Schedule
 
 The computational methods lab sessions for the OSM Lab will be held from 8:00-11:50am, Tuesday and Thursday in Saieh Hall, Room 247. The lab files in the schedule under the "Materials column" that start with "ACME" come from the Brigham Young University Math Department's [Applied and Computational Math Emphasis (ACME program)](http://www.acme.byu.edu/). These computational labs are open source. We cover only a subset of these excellent applied math Python labs, which are available in their entirety at [http://www.acme.byu.edu/2016-2017-materials/](http://www.acme.byu.edu/2016-2017-materials/). We highly recommend that you take time after the Boot Camp to work through some of the other labs that are available to you.
@@ -12,7 +26,7 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 6-19  | M   |     |     |     |     |
-6-20  | T   |     | Justin Gardiner |  | [Comp Prob Set 1]() |
+6-20  | T   |     | Justin Gardiner | [Intro to Numpy]() | [Comp Prob Set 1]() |
 6-21  | W   |     |         |          | due T, 6-27, 8am    |
 6-22  | Th  |     | Justin Gardiner |  |   |
 6-23  | F   |     |     |     |     |
