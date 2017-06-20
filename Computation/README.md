@@ -26,7 +26,7 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 6-19  | M   |     |     |     |     |
-6-20  | T   |     | Justin Gardiner | [ACME: Intro to NumPy](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | [Comp Prob Set 1]() |
+6-20  | T   |     | Justin Gardiner | [ACME: Intro to NumPy](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | [Comp Prob Set 1](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk1_PyIntro/PyIntro_probset.pdf) |
 |     |     |     |                 | [ACME: Standard Library](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk1_PyIntro/StandardLibrary.pdf) | due T, 6-27, 8am |
 |     |     |     |                 | [ACME: Unit Testing](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk1_PyIntro/Vol1B-Testing-2017.pdf) |   |
 6-21  | W   |     |         |          |    |
