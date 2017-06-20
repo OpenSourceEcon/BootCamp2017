@@ -1,0 +1,110 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage{array}
+\usepackage{threeparttable}
+\usepackage{geometry}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in}
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{\footnotesize\textsl{OSM Lab, Summer 2017, Math PS \#1}}
+\cfoot{}
+\rfoot{\footnotesize\textsl{Page \thepage\ of \pageref{LastPage}}}
+\renewcommand\headrulewidth{0pt}
+\renewcommand\footrulewidth{0pt}
+\usepackage[format=hang,font=normalsize,labelfont=bf]{caption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{float,color}
+\usepackage[pdftex]{graphicx}
+\usepackage{hyperref}
+\hypersetup{colorlinks,linkcolor=red,urlcolor=blue,citecolor=red}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{derivation}{Derivation} % Number derivations on their own
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition} % Number propositions on their own
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+%\numberwithin{equation}{section}
+\bibliographystyle{aer}
+\newcommand\ve{\varepsilon}
+\newcommand\boldline{\arrayrulewidth{1pt}\hline}
+
+\begin{document}
+
+\begin{flushleft}
+   \textbf{\large{Math, Problem Set \#1, Probability Theory}} \\[5pt]
+   OSM Lab, Karl Schmedders \\[5pt]
+   Due Monday, June 26 at 8:00am
+\end{flushleft}
+
+\vspace{5mm}
+
+\begin{enumerate}
+	\item {\bf Exercises from chapter.} Do the following exercises in Chapter 3 of \citet{HJ17}: 3.6, 3.8, 3.11, 3.12 (watch this movie \href{https://www.youtube.com/watch?v=Zr_xWfThjJ0}{clip}), 3.16, 3.33, 3.36.
+	\item Construct examples of events $A$, $B$, and $C$, each of probability strictly between 0 and 1, such that
+   		\begin{itemize}
+			\item[(a)] $P(A  \cap B) = P(A)P(B)$, $P(A  \cap C) = P(A)P(C)$, $P(B  \cap C) = P(B)P(C)$, but $P(A  \cap B \cap C) \neq P(A)P(B)P(C)$.
+			\item[(b)] $P(A  \cap B) = P(A)P(B)$, $P(A  \cap C) = P(A)P(C)$, $P(A  \cap B \cap C) = P(A)P(B)P(C)$, but $P(B  \cap C) \neq P(B)P(C)$. (Hint: You can let $\Omega$ be a set of eight equally likely points.)
+		\end{itemize}
+   	\item Prove that Benford's Law is, in fact, a well-defined discrete probability distribution.
+   	\item A person tosses a fair coin until a tail appears for the first time. If the tail appears on the $n$th flip, the person wins $2^n$ dollars. Let the random variable $X$ denote the player's winnings.
+		\begin{itemize}
+			\item[(a)] (St. Petersburg paradox) Show that $E[X]= + \infty$.
+			\item[(b)] Suppose the agent has log utility. Calculate $E[\ln X]$.
+		\end{itemize}
+	\item (Siegel's paradox) Suppose the exchange rate between USD and CHF is 1:1. Both a U.S. investor and a Swiss investor believe that a year from now the exchange rate will be either $1.25:1$ or $1:1.25$, with each scenario having a probability of 0.5. Both investors want to maximize their wealth in their respective home currency (a year from now) by investing in a risk-free asset; the risk-free interest rates in the U.S. and in Switzerland are the same. Where should the two investors invest?
+
+\item Consider a probability measure space with $\Omega = [0,1]$.
+		\begin{itemize}
+			\item[(a)] Construct a random variable $X$ such that $E[X] < \infty$ but $E[X^2] = \infty$.
+			\item[(b)] Construct random variables $X$ and $Y$ such that $P(X>Y)>\frac{1}{2}$ but $E[X]<E[Y]$.
+			\item[(c)] Construct random variables $X$, $Y$, and $Z$ such that\\ $P(X>Y) P(Y>Z) P(X>Z) > 0$ and 						$E(X)=E(Y)=E(Z)=0$.
+		\end{itemize}
+
+	\item Let the random variables $X$ and $Z$ be independent with $X \sim N(0,1)$ and $P(Z=1)=P(Z=-1)=\frac{1}{2}$. 			Define $Y= XZ$ as the product of $X$ and $Z$. Prove or disprove each of the following statements.
+		\begin{itemize}
+			\item[(a)] $Y \sim N(0,1)$.
+			\item[(b)] $P(|X|=|Y|)=1$.
+			\item[(c)] $X$ and $Y$ are not independent.
+			\item[(d)] $Cov[X,Y]=0$.
+			\item[(e)] If $X$ and $Y$ are normally distributed random variables with $Cov[X,Y]=0$, then $X$ and $Y$ 					must be dependent.
+		\end{itemize}
+
+	\item Let the random variables $X_i$, $i=1,2,\ldots,n,$ be i.i.d.\ having the uniform distribution on $[0,1]$, denoted $X_i \sim U[0,1]$. Consider the random variables $m=\min\{X_1,X_2,\ldots,X_n\}$ and $M=\max\{X_1,X_2,\ldots,X_n\}$. For both random variables $m$ and $M$, derive their respective cumulative distribution (cdf), probability density function (pdf), and expected value.
+
+	\item You want to simulate a dynamic economy (e.g., an OLG model) with two possible states in each period, a ``good'' state and a ``bad'' state. In each period, the probability of both shocks is $\frac{1}{2}$. Across periods the shocks are independent. Answer the following questions using the Central Limit Theorem and the Chebyshev Inequality.
+		\begin{itemize}
+			\item[(a)] What is the probability that the number of good states over 1000 periods differs from 500 by at most 2\%?
+			\item[(b)] Over how many periods do you need to simulate the economy to have a probability of at least 0.99 that the proportion of good states differs from $\frac{1}{2}$ by less than 1\%?
+		\end{itemize}
+
+	\item If $E[X]<0$ and $\theta \neq 0$ is such that $E[e^{\theta X}]=1$, prove that $\theta > 0$.
+\end{enumerate}
+
+\vspace{25mm}
+
+\bibliography{ProbStat_probset}
+
+\end{document}
