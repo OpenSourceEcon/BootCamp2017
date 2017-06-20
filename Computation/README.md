@@ -26,9 +26,12 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 6-19  | M   |     |     |     |     |
-6-20  | T   |     | Justin Gardiner | [Intro to Numpy]() | [Comp Prob Set 1]() |
-6-21  | W   |     |         |          | due T, 6-27, 8am    |
-6-22  | Th  |     | Justin Gardiner |  |   |
+6-20  | T   |     | Justin Gardiner | [ACME: Intro to Numpy](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | [Comp Prob Set 1]() |
+|     |     |     |                 | [ACME: Standard Library](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk1_PyIntro/StandardLibrary.pdf) | due T, 6-27, 8am |
+|     |     |     |                 | [ACME: Unit Testing](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk1_PyIntro/Vol1B-Testing-2017.pdf) |   |
+6-21  | W   |     |         |          |    |
+6-22  | Th  |     | Justin Gardiner | [ACME: Object Oriented Programming](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk1_PyIntro/OOP.pdf) |   |
+|     |     |     |                 | [ACME: Exceptions and File I/O](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk1_PyIntro/Exceptions.pdf) |   |
 6-23  | F   |     |     |     |     |
 
 ### Week 2
