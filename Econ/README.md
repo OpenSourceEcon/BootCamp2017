@@ -32,8 +32,8 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-3  | M   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |  |
 7-4  | T   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |  |
-7-5  | W   | Firm dynamics | [Jason DeBacker](http://www.jasondebacker.com/) |    |  |
-7-6  | Th  |               |                |     |  |
+7-5  | W   | Firm dynamics | [Jason DeBacker](http://www.jasondebacker.com/) |    | [Econ Prob Set 3]() |
+7-6  | Th  |               |                |     | due W, 7-12, 8am |
 7-7  | F   | Firm dynamics | [Jason DeBacker](http://www.jasondebacker.com/) |  |  |
 
 ### Week 4
