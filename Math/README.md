@@ -22,7 +22,7 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-26  | M   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | HJE (2017, Ch. 3) | Math Prob Set 2  |
+6-26  | M   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | HJE (2017, Ch. 3) | [Math Prob Set 2](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Math/Wk2_InProd/InProd_probset.pdf) |
 6-27  | T   |                      |         |     | due W, 7-5, 8am |
 6-28  | W   | Inner product spaces | [Zachary Boyd](http://www.math.ucla.edu/~zach.boyd/) | HJE (2017, Ch. 3) |  |
 6-29  | Th  |                      |                     |     |  |
