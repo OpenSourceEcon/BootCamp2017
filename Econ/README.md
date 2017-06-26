@@ -20,8 +20,8 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-26  | M   | Dynamic programming | [John Stachurski](http://johnstachurski.net/) |  |  |
-6-27  | T   |                      |                 |     |  |
+6-26  | M   | Dynamic programming | [John Stachurski](http://johnstachurski.net/) | [Slides](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk2_DP/preliminaries.pdf) | [Econ Prob Set 2]() |
+6-27  | T   |                      |                 |     | due W, 7-5, 8am |
 6-28  | W   | Dynamic programming | [John Stachurski](http://johnstachurski.net/) |  |  |
 6-29  | Th  |                      |                     |     |  |
 6-30  | F   | IDynamic programming | [John Stachurski](http://johnstachurski.net/) |  |  |
