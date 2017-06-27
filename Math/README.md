@@ -34,7 +34,7 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-3  | M   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |   |
 7-4  | T   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |   |
-7-5  | W   | Spectral theory     | John Van den Berghe | HJE (2017, Ch. 4) | Math Prob Set 3 |
+7-5  | W   | Spectral theory     | John Van den Berghe | HJE (2017, Ch. 4) | [Math Prob Set 3](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Math/Wk3_Spct/Spect_probset.pdf) |
 7-6  | Th  |               |             |     | due M, 7-10, 8am |
 7-7  | F   | Spectral theory     | John Van den Berghe | HJE (2017, Ch. 4) |  |
 

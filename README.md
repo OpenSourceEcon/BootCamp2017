@@ -74,7 +74,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 6-26  | M   | Inner product spaces | Dynamic programming |                     |     |
 6-27  | T   |                      |                     | Data visualization  |     |
 6-28  | W   | Inner product spaces | Dynamic programming |                     |     |
-6-29  | Th  |                      |                     | Root find, minimize |     |
+6-29  | Th  |                      |                     | Pandas |     |
 6-30  | F   | Inner product spaces | Dynamic programming |                     | TBA |
 
 ### Week 3
