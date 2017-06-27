@@ -39,8 +39,10 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 6-26  | M   |     |     |     |     |
-6-27  | T   |     | Justin Gardiner |  | [Comp Prob Set 2]() |
-6-28  | W   |     |         |          | due W, 7-5, 8am    |
+6-27  | T   | Visualizations | Justin Gardiner | [Visualizations Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonVisualize.ipynb) | [Comp Prob Set 2](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/VisPandas_probset.pdf) |
+|     |     | and Pandas  |    | [ACME: Intro to Matplotlib](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/PlottingIntro.pdf) | due W, 7-5 |
+|     |     |     |    | [ACME: Intro to Matplotlib](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/PlottingIntro.pdf) | due W, 7-5 |
+6-28  | W   |     |         |          |     |
 6-29  | Th  |     | Justin Gardiner |  |   |
 6-30  | F   |     |     |     |     |
 
