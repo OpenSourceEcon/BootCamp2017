@@ -44,8 +44,9 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 |     |     |     |    | [ACME: Data Visualization](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol1A-DataVisualization-2016.pdf) |   |
 |     |     |     |    | [ACME: Pandas 1](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol3A-Pandas1-2016.pdf) |   |
 6-28  | W   |     |         |          |     |
-6-29  | Th  | Visualizations | Justin Gardiner | [ACME: Pandas 3](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol3A-Pandas3-2016.pdf) |   |
-|     |     | and Bokeh      |          | [ACME: Pandas 4](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol3A-Pandas4-2016.pdf) |    |
+6-29  | Th  | Visualizations | Justin Gardiner | [Pandas Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonNumpyPandas.ipynb) |   |
+|     |     | and Bokeh      |          | [ACME: Pandas 3](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol3A-Pandas3-2016.pdf) |    |
+|     |     |      |          | [ACME: Pandas 4](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol3A-Pandas4-2016.pdf) |    |
 |     |     |     |    | [ACME: Bokeh](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol3A-Bokeh-2016.pdf) |   |
 6-30  | F   |     |     |     |     |
 
