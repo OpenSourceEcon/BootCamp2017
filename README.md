@@ -74,9 +74,9 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-26  | M   | Inner product spaces | Dynamic programming |                     |     |
 6-27  | T   |                      |                     | Data visualization  |     |
-6-28  | W   | Inner product spaces | Dynamic programming |                     |     |
+6-28  | W   | Inner product spaces | Dynamic programming |                     | [Greg Kaplan](https://gregkaplan.uchicago.edu/), "Macro, Inequality, and Computation" |
 6-29  | Th  |                      |                     | Pandas |     |
-6-30  | F   | Inner product spaces | Dynamic programming |                     | TBA |
+6-30  | F   | Inner product spaces | Dynamic programming |                     |     |
 
 ### Week 3
 
