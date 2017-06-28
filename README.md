@@ -25,12 +25,13 @@ This `README.md` serves as a syllabus and reference for the OSM Lab Boot Camp. T
 
 **Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the respective [math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math), [econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) detailed schedule pages.
 
-Senior Instructors
+Senior Instructors and Presenters
 * [Jorge Barro](http://www.jorgebarro.com/), Rice University
 * [Jason DeBacker](http://www.jasondebacker.com/), University of South Carolina
 * [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
 * [Lars Hansen](http://larspeterhansen.org/), University of Chicago
 * [Matthew Jensen](http://www.aei.org/scholar/matthew-h-jensen/), Open Source Policy Center, American Enterprise Institute
+* [Greg Kaplan](https://gregkaplan.uchicago.edu/), University of Chicago
 * [Casey Mulligan](https://economics.uchicago.edu/directory/casey-mulligan), University of Chicago
 * [Kerk Phillips](https://sites.google.com/site/kerkphillips/home), Brigham Young University
 * [Thomas Sargent](http://www.tomsargent.com/), New York University
@@ -61,7 +62,8 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-6-19  | M   | Introduction | Overlapping generations |              | [Casey Mulligan](https://economics.uchicago.edu/directory/casey-mulligan) |
+6-19  | M   | Introduction | Overlapping generations |              | [Casey Mulligan](https://economics.uchicago.edu/directory/casey-mulligan), "CAD Reasoning |
+|     |     |       |      | "for Theory Problems" |
 6-20  | T   |              |                         | Python intro, standard library |     |
 6-21  | W   | Prob & stats | Overlapping generations |              |     |
 6-22  | Th  |              |                         | Object oriented programming |     |
