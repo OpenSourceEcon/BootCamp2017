@@ -57,9 +57,11 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 7-3  | M    | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |  |
 7-4  | T    | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |  |
 7-5  | W    |     |         |          |   |
-7-6  | Th   |  Matrix Decomposition | Justin Gardiner | [ACME: QR Decomp 1](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk3_Decomp/Vol1A-QR1-Decomposition-2016.pdf) | [Comp Prob Set 3]() |
-|     |     | and Compute Speed |          | [ACME: QR Decomp 2](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol1A-QR2-LeastSqEigs-2016.pdf) | due T, 7-11, 8am |
-|     |     |      |          | [ACME: SVD Image Compress](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol1A-SVD-2016.pdf) |  |
+7-6  | Th   |  Matrix Decomposition | Justin Gardiner | [ACME: QR Decomp 1](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk3_Decomp/Vol1A-QR1-Decomposition-2016.pdf) | [Comp Prob Set 3](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk3_Decomp/Decomp_probset.pdf) |
+|     |     | and Compute Speed |          | [ACME: QR Decomp 2](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk3_Decomp/Vol1A-QR2-LeastSqEigs-2016.pdf) | due T, 7-11, 8am |
+|     |     |      |          | [ACME: SVD Image Compress](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk3_Decomp/Vol1A-SVD-2016.pdf) |  |
+|     |     |      |          | [ACME: Drazen Inverse](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk3_Decomp/Vol1B-Drazin-2017.pdf) |  |
+|     |     |      |          | [QuantEcon: Need For Speed](https://lectures.quantecon.org/py/need_for_speed.html) |  |
 7-7  | F    |     |     |     |  |
 
 ### Week 4
