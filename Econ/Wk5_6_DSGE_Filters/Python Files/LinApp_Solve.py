@@ -1,17 +1,18 @@
 """
-Python module for using the method outlined by Uhlig (1997) to solve a
-log-linearized RBC model for policy functions.
+MATLAB version 1.1 written by Kerk Phillips, April 2014
 
-Original adaptation of MATLAB code done by Spencer Lyon in May 2012
+PYTHON version adapted by Yulong Li, November 2015 
 
-Additional work has been done by Chase Coleman
+This PYTHON version was also based on the previous adaptations of 
+Uhlig's Toolkit (1999) by Spencer Lyon in May 2012 and later Chase Coleman
+
 """
+from __future__ import division
 import scipy as sp
 import numpy as np
 from numpy import hstack, vstack, zeros, dot, eye, kron
 from scipy import linalg as la
 from numpy import linalg as npla
-
 
 def _nullSpaceBasis(A):
     """
@@ -46,53 +47,139 @@ def _nullSpaceBasis(A):
     else:
         return zeros((0, 0))
 
-Uhlig_Solve(AA=None, BB=None, CC=None, DD=None, FF=None, GG=None, HH=None,
-              JJ=None, KK=None, LL=None, MM=None, NN=None):
+def qzswitch(i, A, B, Q, Z):
+    '''
+    Takes U.T. matrices A, B, orthonormal matrices Q,Z, interchanges
+    diagonal elements i and i+1 of both A and B, while maintaining 
+    Q'AZ' and Q'BZ' unchanged.  Does nothing if ratios of diagonal elements
+    in A and B at i and i+1 are the same.  Aborts if diagonal elements of
+    both A and B are zero at either position.
+
+    Parameters
+    ----------
+    i : number, dtype=int
+        Index (>=1) of the diagonal element to be interchanged
+    A : array_like, dtype=float
+        The upper triangular matrix of which some diagonal elements are to
+        be interchanged
+    B : array_like, dtype=float
+        The other upper triangular matrix of which some diagonal elements are
+        to be interchanged
+    Q : array_like, dtype=float
+        An orthonormal matrix from the QZ decomposition
+    Z : array_like, dtype=float
+        An orthonormal matrix from the QZ decomposition
+    Returns
+    -------
+    A : array_like, dtype=float
+        Altered A matrix
+    B : array_like, dtype=float
+        Altered A matrix
+    Q : array_like, dtype=float
+        Altered Q matrix
+    Z : array_like, dtype=float
+        Altered Z matrix
+    Notes
+    -----
+    Copyright: C.A. Sims, 1996, Yale University.
+    '''
+    a = A[i-1,i-1]
+    d = B[i-1,i-1]
+    b = A[i-1,i]
+    e = B[i-1,i]
+    c = A[i,i]
+    f = B[i,i]
+  
+    wz = hstack((dot(c,e)-dot(f,b), (dot(c,d)-dot(f,a)).conj().T))
+    xy = hstack(((dot(b,d)-dot(e,a)).conj().T, (dot(c,d)-dot(f,a)).conj().T))
+
+    n = np.sqrt(dot(wz,wz.conj().T))
+    m = np.sqrt(dot(xy,xy.conj().T))
+    
+    if n == 0:
+        print "qzswitch(): Inputs unchanged!"
+        return A, B, Q, Z
+    else:
+       wz = wz/n
+       xy = xy/m
+       wz = vstack(( wz, hstack((-wz[1].conj().T, wz[0].conj().T)) ))
+       xy = vstack(( xy, hstack((-xy[1].conj().T, xy[0].conj().T)) ))
+       A[i-1:i+1,:] = xy.dot(A[i-1:i+1,:])
+       B[i-1:i+1,:] = xy.dot(B[i-1:i+1,:])
+       A[:,i-1:i+1] = A[:,i-1:i+1].dot(wz)
+       B[:,i-1:i+1] = B[:,i-1:i+1].dot(wz)
+       Z[:,i-1:i+1] = Z[:,i-1:i+1].dot(wz)
+       Q[i-1:i+1,:] = xy.dot(Q[i-1:i+1,:])
+    return A, B, Q, Z
+
+def qzdiv(stake, A, B, Q, Z):
+    '''
+    Takes U.T. matrices A, B, orthonormal matrices Q,Z, rearranges them
+    so that all cases of abs(B(i,i)/A(i,i))>stake are in lower right 
+    corner, while preserving U.T. and orthonormal properties and Q'AZ' and Q'BZ'.
+    
+    Parameters
+    ----------
+    stake : number, dtype=float
+    A : array_like, dtype=float
+        An upper triangular matrix
+    B : array_like, dtype=float
+        An upper triangular matrix
+    Q : array_like, dtype=float
+        An orthonormal matrix from the QZ decomposition
+    Z : array_like, dtype=float
+        An orthonormal matrix from the QZ decomposition
+    Returns
+    -------
+    A : array_like, dtype=float
+        Rearranged A matrix
+    B : array_like, dtype=float
+        Rearranged B matrix
+    Q : array_like, dtype=float
+        Rearranged Q matrix
+    Z : array_like, dtype=float
+        Rearranged Z matrix
+    Notes
+    -----
+    Copyright: C.A. Sims, 1996, Yale University.
+    '''
+    n, jnk = A.shape
+
+    root = abs(vstack((np.diag(A), np.diag(B))).T)
+    tmp = (root[:,0]<1.e-13).astype(int)
+    root[:,0] = root[:,0]- tmp *(root[:,0]+root[:,1])
+    root[:,1] = root[:,1]/root[:,0]
+    for i in xrange(n,0,-1):
+        m=0
+        for j in xrange(i,0,-1):
+            if (root[j-1,1] > stake or root[j-1,1] < -.1):
+                m=j
+                break
+        if m==0:
+            print "qzdiv(): Inputs unchanged!"
+            return A, B, Q, Z
+        for k in xrange(m,i,1):
+            A, B, Q, Z = qzswitch(k,A,B,Q,Z)
+            tmp = root[k-1,1]
+            root[k-1,1] = root[k,1]
+            root[k,1] = tmp
+    return A, B, Q, Z
+
+
+def LinApp_Solve(AA,BB,CC,DD,FF,GG,HH,JJ,KK,LL,MM,WWW,TT,NN,Z0,Sylv):
     """
-    This function mimics the behavior of Harald Uhlig's solve.m and
-    calc_qrs.m files in Uhlig's toolkit.
+    This code takes Uhlig's original code and puts it in the form of a
+    function.  This version outputs the policy function coefficients: PP,
+    QQ and UU for X, and RR, SS and VV for Y.
 
-    In order to use this function, the user must have log-linearized the
-    model they are dealing with to be in the following form (assume that
-    y corresponds to the model's "jump variables", z represents the
-    exogenous state variables and x is for endogenous state variables.
-    nx, ny, nz correspond to the number of variables in each category.)
-    The inputs to this function are the matrices found in the following
-    equations.
-
-    .. math::
-
-        Ax_t + Bx_t-1 + Cy_t + Dz_t = 0
-
-        E\{Fx_{t+1} + Gx_t + Hx_{t-1} + Jy_{t+1} +
-           Ky_t + Lz_{t+1} Mz_t \} = 0
-
-    The purpose of this function is to find the recursive equilibrium
-    law of motion defined by the following equations.
-
-    .. math::
-
-        X_t = PX_{t-1} + Qz_t
-
-        Y_t = RY_{t-1} + Sz_t
-
-    Following outline given in Uhhlig (1997), we solve for :math:`P` and
-    :math:`Q` using the following set of equations:
-
-    .. math::
-
-        FP^2 + Gg + H =0
-
-        FQN + (FP+G)Q + (LN + M)=0
-
-    Once :math:`P` and :math:`Q` are known, one ca solve for :math:`R`
-    and :math:`S` using the following equations:
-
-    .. math::
-
-        R = -C^{-1}(AP + B)
-
-        S = - C^{-1}(AQ + D)
+    Inputs overview:
+    The matrices of derivatives: AA - TT.
+    The autoregression coefficient matrix NN from the law of motion for Z.
+    Z0 is the Z-point about which the linearization is taken.  For
+    linearizing about the steady state this is Zbar and normally Zbar = 0.
+    Sylv is an indicator variable telling the program to use the built-in
+    function sylvester() to solve for QQ and SS, if possible.  Default is
+    to use Sylv=1.
 
     Parameters
     ----------
@@ -110,52 +197,68 @@ Uhlig_Solve(AA=None, BB=None, CC=None, DD=None, FF=None, GG=None, HH=None,
         The matrix represented above by :math:`C`. It is the matrix of
         derivatives of the Y equations with repsect to :math:`Z_t`
     FF : array_like, dtype=float, shape=(nx, nx)
-        The matrix represetned above by :math:`F`. It the matrix of
+        The matrix represetned above by :math:`F`. It is the matrix of
         derivatives of the model's characterizing equations with
         respect to :math:`X_{t+1}`
     GG : array_like, dtype=float, shape=(nx, nx)
-        The matrix represetned above by :math:`G`. It the matrix of
+        The matrix represetned above by :math:`G`. It is the matrix of
         derivatives of the model's characterizing equations with
         respect to :math:`X_t`
     HH : array_like, dtype=float, shape=(nx, nx)
-        The matrix represetned above by :math:`H`. It the matrix of
+        The matrix represetned above by :math:`H`. It is the matrix of
         derivatives of the model's characterizing equations with
         respect to :math:`X_{t-1}`
     JJ : array_like, dtype=float, shape=(nx, ny)
-        The matrix represetned above by :math:`J`. It the matrix of
+        The matrix represetned above by :math:`J`. It is the matrix of
         derivatives of the model's characterizing equations with
         respect to :math:`Y_{t+1}`
     KK : array_like, dtype=float, shape=(nx, ny)
-        The matrix represetned above by :math:`K`. It the matrix of
+        The matrix represetned above by :math:`K`. It is the matrix of
         derivatives of the model's characterizing equations with
         respect to :math:`Y_t`
     LL : array_like, dtype=float, shape=(nx, nz)
-        The matrix represetned above by :math:`L`. It the matrix of
+        The matrix represetned above by :math:`L`. It is the matrix of
         derivatives of the model's characterizing equations with
         respect to :math:`Z_{t+1}`
     MM : array_like, dtype=float, shape=(nx, nz)
-        The matrix represetned above by :math:`M`. It the matrix of
+        The matrix represetned above by :math:`M`. It is the matrix of
         derivatives of the model's characterizing equations with
         respect to :math:`Z_t`
+    WWW : array, dtype=float, shape=(ny,)
+        The vector of the numberial errors of first ny characterizing
+        equations
+    TT : array, dtype=float, shape=(nx,)
+        The vector of the numberial errors of the next nx characterizing
+        equations following the first ny equations
     NN : array_like, dtype=float, shape=(nz, nz)
-        The autocorrelation matrix for the exogenous state
-        vector z.
+        The autocorrelation matrix for the exogenous state vector z.
+    Z0 : array, dtype=float, shape=(nz,)
+        the Z-point about which the linearization is taken.  For linearizing 
+        about the steady state this is Zbar and normally Zbar = 0.
+        QQ if true.
+    Sylv: binary, dtype=int 
+        an indicator variable telling the program to use the built-in
+        function sylvester() to solve for QQ and SS, if possible.  Default is
+        to use Sylv=1.
 
     Returns
     -------
-    P : array_like, dtype=float, shape=(nx, nx)
+    P : 2D-array, dtype=float, shape=(nx, nx)
         The matrix :math:`P` in the law of motion for endogenous state
         variables described above.
-    Q : array_like, dtype=float, shape=(nx, nz)
-        The matrix :math:`P` in the law of motion for endogenous state
+    Q : 2D-array, dtype=float, shape=(nx, nz)
+        The matrix :math:`Q` in the law of motion for exogenous state
         variables described above.
-    R : array_like, dtype=float, shape=(ny, nx)
-        The matrix :math:`P` in the law of motion for endogenous state
+    U : array, dtype=float, shape=(nx,)
+        ??????????
+    R : 2D-array, dtype=float, shape=(ny, nx)
+        The matrix :math:`R` in the law of motion for endogenous state
         variables described above.
-    S : array_like, dtype=float, shape=(ny, nz)
-        The matrix :math:`P` in the law of motion for endogenous state
+    S : 2D-array, dtype=float, shape=(ny, nz)
+        The matrix :math:`S` in the law of motion for exogenous state
         variables described above.
-
+    V : array, dtype=float, shape=(ny,)
+        ???????????
     References
     ----------
     .. [1] Uhlig, H. (1999): "A toolkit for analyzing nonlinear dynamic
@@ -178,6 +281,9 @@ Uhlig_Solve(AA=None, BB=None, CC=None, DD=None, FF=None, GG=None, HH=None,
     LL = np.matrix(LL)
     MM = np.matrix(MM)
     NN = np.matrix(NN)
+    WWW = np.array(WWW)
+    TT = np.array(TT)
+    Z0 = np.array(Z0)
     #Tolerance level to use
     TOL = .000001
 
@@ -185,9 +291,7 @@ Uhlig_Solve(AA=None, BB=None, CC=None, DD=None, FF=None, GG=None, HH=None,
     nx = FF.shape[1]
     l_equ = CC.shape[0]
     ny = CC.shape[1]
-    nz = LL.shape[1]
-
-    k_exog = min(NN.shape)
+    nz = min(NN.shape)
 
     # The following if and else blocks form the
     # Psi, Gamma, Theta Xi, Delta mats
@@ -210,18 +314,17 @@ Uhlig_Solve(AA=None, BB=None, CC=None, DD=None, FF=None, GG=None, HH=None,
     else:
         CC_plus = la.pinv(CC)
         CC_0 = _nullSpaceBasis(CC.T)
-        Psi_mat = vstack((zeros((l_equ - ny, nx)), FF \
+        if l_equ != ny:
+            Psi_mat = vstack((zeros((l_equ - ny, nx)), FF \
                             - dot(dot(JJ, CC_plus), AA)))
-        if CC_0.size == 0:
-            # This block makes sure you don't throw an error with an empty CC.
             Gamma_mat = vstack((dot(CC_0, AA), dot(dot(JJ, CC_plus), BB) \
                         - GG + dot(dot(KK, CC_plus), AA)))
-            Theta_mat = vstack((dot(CC_0, AA), dot(dot(KK, CC_plus), BB) \
-                                    - HH))
+            Theta_mat = vstack((dot(CC_0, BB), dot(dot(KK, CC_plus), BB) - HH))
         else:
-            Gamma_mat = dot(dot(JJ, CC_plus), BB) - GG +\
-                               dot(dot(KK, CC_plus), AA)
-            Theta_mat = dot(dot(KK, CC_plus), BB) - HH
+            CC_inv = la.inv(CC)
+            Psi_mat = FF - dot(JJ.dot(CC_inv), AA)
+            Gamma_mat = dot(JJ.dot(CC_inv), BB) - GG + dot(dot(KK, CC_inv), AA)
+            Theta_mat = dot(KK.dot(CC_inv), BB) - HH
         Xi_mat = vstack((hstack((Gamma_mat, Theta_mat)), \
                             hstack((eye(nx), zeros((nx, nx))))))
         Delta_mat = vstack((hstack((Psi_mat, np.mat(zeros((nx, nx))))),\
@@ -232,97 +335,219 @@ Uhlig_Solve(AA=None, BB=None, CC=None, DD=None, FF=None, GG=None, HH=None,
 
     eVals, eVecs = la.eig(Xi_mat, Delta_mat)
     if npla.matrix_rank(eVecs) < nx:
-        print('Error: Xi is not diagonalizable, stopping')
+        print("Error: Xi is not diagonalizable, stopping...")
 
     # From here to line 158 we Diagonalize Xi, form Lambda/Omega and find P.
     else:
         Xi_sortabs = np.sort(abs(eVals))
         Xi_sortindex = np.argsort(abs(eVals))
         Xi_sortedVec = np.array([eVecs[:, i] for i in Xi_sortindex]).T
-        Xi_sortval = Xi_sortabs
+        Xi_sortval = eVals[Xi_sortindex]
         Xi_select = np.arange(0, nx)
-        if np.imag(Xi_sortedVec[nx - 1]).any():
+        if np.imag(Xi_sortval[nx - 1]).any():
             if (abs(Xi_sortval[nx - 1] - sp.conj(Xi_sortval[nx])) < TOL):
                 drop_index = 1
-                cond_1 = (abs(np.imag(Xi_sortval[drop_index])) > TOL)
+                cond_1 = (abs(np.imag(Xi_sortval[drop_index-1])) > TOL)
                 cond_2 = drop_index < nx
                 while cond_1 and cond_2:
                     drop_index += 1
                 if drop_index >= nx:
-                    print('There is an error. Too many complex eigenvalues.'
-                          +' Quitting')
+                    print("There is an error. Too many complex eigenvalues."
+                          +" Quitting...")
                 else:
-                    print('droping the lowest real eigenvalue. Beware of' +
-                          ' sunspots')
+                    print("Droping the lowest real eigenvalue. Beware of" +
+                          " sunspots!")
                     Xi_select = np.array([np.arange(0, drop_index - 1),\
-                                          np.arange(drop_index + 1, nx)])
-
+                                          np.arange(drop_index, nx + 1)])
         # Here Uhlig computes stuff if user chose "Manual roots" I skip it.
         if max(abs(Xi_sortval[Xi_select])) > 1 + TOL:
-            print('It looks like we have unstable roots. This might not work')
+            print("It looks like we have unstable roots. This might not work...")
         if abs(max(abs(Xi_sortval[Xi_select])) - 1) < TOL:
-            print('Check the model to make sure you have a unique steady' +
-                  ' state we are having problems with convergence.')
+            print("Check the model to make sure you have a unique steady" +
+                  " state we are having problems with convergence.")
         Lambda_mat = np.diag(Xi_sortval[Xi_select])
         Omega_mat = Xi_sortedVec[nx:2 * nx, Xi_select]
-        #Omega_mat = sp.reshape(Omega_mat,\
-        #        (math.sqrt(Omega_mat.size),math.sqrt(Omega_mat.size)))
+
         if npla.matrix_rank(Omega_mat) < nx:
-            print("Omega matrix is not invertible, Can't solve for P")
+            print("Omega matrix is not invertible, Can't solve for P; we" +
+                    " proceed with QZ-method instead.")
+
+            #~~~~~~~~~ QZ-method codes from SOLVE_QZ ~~~~~~~~#
+            Delta_up,Xi_up,UUU,VVV=la.qz(Delta_mat,Xi_mat, output='complex')
+            UUU=UUU.T
+            Xi_eigval = np.diag( np.diag(Xi_up)/np.maximum(np.diag(Delta_up),TOL))
+            Xi_sortabs= np.sort(abs(np.diag(Xi_eigval)))
+            Xi_sortindex= np.argsort(abs(np.diag(Xi_eigval)))
+            Xi_sortval = Xi_eigval[Xi_sortindex, Xi_sortindex]
+            Xi_select = np.arange(0, nx)
+            stake = max(abs(Xi_sortval[Xi_select])) + TOL
+
+            Delta_up, Xi_up, UUU, VVV = qzdiv(stake,Delta_up,Xi_up,UUU,VVV)
+                    
+            #Check conditions from line 49-109
+            if np.imag(Xi_sortval[nx - 1]).any():
+                if (abs(Xi_sortval[nx - 1] - sp.conj(Xi_sortval[nx])) < TOL):
+                    print("Problem: You have complex eigenvalues! And this means"+
+                        " PP matrix will contain complex numbers by this method." )
+                drop_index = 1
+                cond_1 = (abs(np.imag(Xi_sortval[drop_index-1])) > TOL)
+                cond_2 = drop_index < nx
+                while cond_1 and cond_2:
+                    drop_index += 1
+                if drop_index >= nx:
+                    print("There is an error. Too many complex eigenvalues."
+                              +" Quitting...")
+                else:
+                    print("Dropping the lowest real eigenvalue. Beware of" +
+                          " sunspots!")
+                    for i in xrange(drop_index,nx+1):
+                        Delta_up,Xi_up,UUU,VVV = qzswitch(i,Delta_up,Xi_up,UUU,VVV)
+                    Xi_select1 = np.arange(0,drop_index-1)
+                    Xi_select = np.append(Xi_select1, np.arange(drop_index,nx+1))
+
+            if Xi_sortval[max(Xi_select)] < 1 - TOL:
+                print('There are stable roots NOT used. Proceeding with the' +
+                        ' smallest root.')
+            if max(abs(Xi_sortval[Xi_select])) > 1 + TOL:
+                print("It looks like we have unstable roots. This might not work...")
+            if abs(max(abs(Xi_sortval[Xi_select])) - 1) < TOL:
+                print("Check the model to make sure you have a unique steady" +
+                          " state we are having problems with convergence.")
+            #End of checking conditions
+            #Lambda_mat = np.diag(Xi_sortval[Xi_select]) # to help sol_out.m
+            
+            VVV=VVV.conj().T
+            VVV_2_1 = VVV[nx : 2*nx, 0 : nx]
+            VVV_2_2 = VVV[nx : 2*nx, nx :2*nx]
+            UUU_2_1 = UUU[nx : 2*nx, 0 : nx]
+            VVV = VVV.conj().T
+            
+            if abs(la.det(UUU_2_1))< TOL:
+                print("One necessary condition for computing P is NOT satisfied,"+
+                    " but we proceed anyways...")
+            if abs(la.det(VVV_2_1))< TOL:
+                print("VVV_2_1 matrix, used to compute for P, is not invertible; we"+
+                    " are in trouble but we proceed anyways...")
+            
+            PP = np.matrix( la.solve(- VVV_2_1, VVV_2_2) )
+            PP_imag = np.imag(PP)
+            PP = np.real(PP)
+            if (sum(sum(abs(PP_imag))) / sum(sum(abs(PP))) > .000001).any():
+                print("A lot of P is complex. We will continue with the" +
+                      " real part and hope we don't lose too much information.")
+            #~~~~~~~~~ End of QZ-method ~~~~~~~~~#
+
+        #This follows the original uhlig.py file
         else:
             PP = dot(dot(Omega_mat, Lambda_mat), la.inv(Omega_mat))
             PP_imag = np.imag(PP)
             PP = np.real(PP)
             if (sum(sum(abs(PP_imag))) / sum(sum(abs(PP))) > .000001).any():
                 print("A lot of P is complex. We will continue with the" +
-                      " real part and hope we don't lose too much information")
-
-    # The code from here to the end was from he Uhlig file cacl_qrs.m.
+                      " real part and hope we don't lose too much information.")
+    # The code from here to the end was from he Uhlig file calc_qrs.m.
     # I think for python it fits better here than in a separate file.
 
     # The if and else below make RR and VV depending on our model's setup.
     if l_equ == 0:
         RR = zeros((0, nx))
-        VV = hstack((kron(NN.T, FF) + kron(eye(k_exog), \
-            (dot(FF, PP) + GG)), kron(NN.T, JJ) + kron(eye(k_exog), KK)))
+        VV = hstack((kron(NN.T, FF) + kron(eye(nz), \
+            (dot(FF, PP) + GG)), kron(NN.T, JJ) + kron(eye(nz), KK))) 
 
     else:
         RR = - dot(CC_plus, (dot(AA, PP) + BB))
-        VV = sp.vstack((hstack((kron(eye(k_exog), AA), \
-                        kron(eye(k_exog), CC))), hstack((kron(NN.T, FF) +\
-                        kron(eye(k_exog), dot(FF, PP) + dot(JJ, RR) + GG),\
-                        kron(NN.T, JJ) + kron(eye(k_exog), KK)))))
+        VV = sp.vstack((hstack((kron(eye(nz), AA), \
+                        kron(eye(nz), CC))), hstack((kron(NN.T, FF) +\
+                        kron(eye(nz), dot(FF, PP) + dot(JJ, RR) + GG),\
+                        kron(NN.T, JJ) + kron(eye(nz), KK)))))
 
-    # Now we use LL, NN, RR, VV to get the QQ, RR, SS matrices.
-    if (npla.matrix_rank(VV) < k_exog * (nx + ny)):
-        print("Sorry but V is not invertible. Can't solve for Q and S")
+    # Now we use LL, NN, RR, VV to get the QQ, RR, SS, VV matrices.
+    # first try using Sylvester equation solver
+    if ny>0:
+        PM = (FF-la.solve(JJ.dot(CC),AA))
+        if npla.matrix_rank(PM)< nx+ny:
+            Sylv=0
+            print("Sylvester equation solver condition is not satisfied;"\
+                    +" proceed with the original method...")
     else:
+        if npla.matrix_rank(FF)< nx:
+            Sylv=0
+            print("Sylvester equation solver condition is not satisfied;"\
+                    +" proceed with the original method...")
+    if Sylv:
+        print("Using Sylvester equation solver...")
+        if ny>0:
+            Anew = la.solve(PM, (FF.dot(PP)+GG+JJ.dot(RR)-\
+                    la.solve(KK.dot(CC), AA)) )
+            Bnew = NN
+            Cnew1 = la.solve(JJ.dot(CC),DD.dot(NN))+la.solve(KK.dot(CC), DD)-\
+                    LL.dot(NN)-MM
+            Cnew = la.solve(PM, Cnew1)
+            QQ = la.solve_sylvester(Anew,Bnew,Cnew)
+            SS = la.solve(-CC, (AA.dot(QQ)+DD))
+        else:
+            Anew = la.solve(FF, (FF.dot(PP)+GG))
+            Bnew = NN
+            Cnew = la.solve(FF, (-LL.dot(NN)-MM))
+            QQ = la.solve_sylvester(Anew,Bnew,Cnew)
+            SS = np.zeros((0,nz)) #empty matrix
+    # then the Uhlig's way
+    else:
+        if (npla.matrix_rank(VV) < nz * (nx + ny)):
+            print("Sorry but V is not invertible. Can't solve for Q and S;"+
+                     " but we proceed anyways...")
+        
         LL = sp.mat(LL)
         NN = sp.mat(NN)
         LLNN_plus_MM = dot(LL, NN) + MM
 
         if DD.any():
             impvec = vstack([DD.T, np.reshape(LLNN_plus_MM,
-                                              (nx * k_exog, 1), 'F')])
+                                                  (nx * nz, 1), 'F')])
         else:
-            impvec = np.reshape(LLNN_plus_MM, (nx * k_exog, 1), 'F')
+            impvec = np.reshape(LLNN_plus_MM, (nx * nz, 1), 'F')
 
         QQSS_vec = np.matrix(la.solve(-VV, impvec))
 
         if (max(abs(QQSS_vec)) == sp.inf).any():
             print("We have issues with Q and S. Entries are undefined." +
-                  " Probably because V is no inverible.")
+                      " Probably because V is no inverible.")
 
-        QQ = np.reshape(np.matrix(QQSS_vec[0:nx * k_exog, 0]),
-                        (nx, k_exog), 'F')
+        #Build QQ SS
+        QQ = np.reshape(np.matrix(QQSS_vec[0:nx * nz, 0]),
+                            (nx, nz), 'F')
 
-        SS = np.reshape(QQSS_vec[(nx * k_exog):((nx + ny) * k_exog), 0],\
-                        (ny, k_exog), 'F')
+        SS = np.reshape(QQSS_vec[(nx * nz):((nx + ny) * nz), 0],\
+                            (ny, nz), 'F')
 
-        #Build WW - we don't use this, but Uhlig defines it so we do too.
-        WW = sp.vstack((
-        hstack((eye(nx), zeros((nx, k_exog)))),
+    #Build WW - WW has the property [x(t)',y(t)',z(t)']=WW [x(t)',z(t)'].
+    WW = sp.vstack((
+        hstack((eye(nx), zeros((nx, nz)))),
         hstack((dot(RR, la.pinv(PP)), (SS - dot(dot(RR, la.pinv(PP)), QQ)))),
-        hstack((zeros((k_exog, nx)), eye(k_exog)))))
+        hstack((zeros((nz, nx)), eye(nz)))))
 
-    return PP, QQ, RR, SS
+    # find constant terms
+    # redefine matrix to be 2D-array for generating vectors UU and VVV
+    AA = np.array(AA)
+    CC = np.array(CC)
+    FF = np.array(FF)
+    GG = np.array(GG)
+    JJ = np.array(JJ)
+    KK = np.array(KK)
+    LL = np.array(LL)
+    NN = np.array(NN)
+    RR = np.array(RR)
+    QQ = np.array(QQ)
+    SS = np.array(SS)
+    if ny>0:
+        UU1 = -(FF.dot(PP)+GG+JJ.dot(RR)+FF-(JJ+KK).dot(la.solve(CC,AA)))
+        UU2 = (TT+(FF.dot(QQ)+JJ.dot(SS)+LL).dot(NN.dot(Z0)-Z0)- \
+            (JJ+KK).dot(la.solve(CC,WWW)))
+        UU = la.solve(UU1, UU2)
+        VVV = la.solve(- CC, (WWW+AA.dot(UU)) )
+    else:
+        UU = la.solve( -(FF.dot(PP)+FF+GG), (TT+(FF.dot(QQ)+LL).dot(NN.dot(Z0)-Z0)) )
+        VVV = np.array([])
+
+    return np.array(PP), np.array(QQ), np.array(UU), np.array(RR), np.array(SS),\
+             np.array(VVV)
