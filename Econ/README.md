@@ -42,7 +42,7 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-10  | M   | Firm dynamics | [Jason DeBacker](http://www.jasondebacker.com/) | [Lecture 2](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk3_FirmDyn/LectureNotes/Lecture2.pdf)  |  |
 7-11  | T   |              |                     |      |  |
-7-12  | W   | Structural estimation: MLE | [Richard Evans](https://sites.google.com/site/rickecon/) | [MLE Jupyter Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk4_StrEst/MLest.ipynb) | Econ Prob Set 4 |
+7-12  | W   | Structural estimation: MLE | [Richard Evans](https://sites.google.com/site/rickecon/) | [MLE Jupyter Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk4_StrEst/MLest.ipynb) | [Econ Prob Set 4](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk4_StrEst/StrEst_probset.pdf) |
 7-13  | Th  |          |           |      | due W, 7-19, 8am |
 7-14  | F   | Structural estimation: GMM | [Richard Evans](https://sites.google.com/site/rickecon/) | [GMM Jupyter Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk4_StrEst/GMMest.ipynb) |  |
 
