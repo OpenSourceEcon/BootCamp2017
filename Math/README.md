@@ -53,8 +53,8 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-17  | M   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 7) | Math Prob Set 5 |
-7-18  | T   |            |           |      | due M, 7-24, 8am |
+7-17  | M   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 7) | [Math Prob Set 5](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Math/Wk5_ConvOpt/ConvOpt_probset.pdf) |
+7-18  | T   |            |           |      | due F, 7-21, 8am |
 7-19  | W   | Convex analysis | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 7) |  |
 7-20  | Th  |            |           |     |  |
 7-21  | F   | Linear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 8) |  |
