@@ -106,7 +106,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-18  | T   |                     |                            | Large data       |     |
 7-19  | W   | Convex analysis     | DSGE modeling              |                  |     |
 7-20  | Th  |                     |                            | High dimensional approx. |     |
-7-21  | F   | Linear optimization | DSGE linear approximation  |                  | TBA |
+7-21  | F   | Linear optimization | DSGE linear approximation  |                  | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) "HPC in Economics" |
 
 ### Week 6
 
