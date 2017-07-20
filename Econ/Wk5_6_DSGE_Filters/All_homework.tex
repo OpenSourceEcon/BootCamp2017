@@ -1,0 +1,379 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{amsmath, amsfonts, amscd, amssymb, amsthm}
+\usepackage{graphicx}
+%\usepackage{import}
+\usepackage{versions}
+\usepackage{crop}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{hyperref}
+\usepackage{ifthen}
+\usepackage[format=hang,font=normalsize,labelfont=bf]{caption}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{placeins}
+\usepackage{framed}
+\usepackage{enumitem}
+\usepackage{threeparttable}
+\usepackage{geometry}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{delarray}
+\usepackage{lscape}
+\usepackage{float,color, colortbl}
+%\usepackage[pdftex]{graphicx}
+\usepackage{hyperref}
+\usepackage{tabu}
+\usepackage{appendix}
+\usepackage{listings}
+
+
+\include{thmstyle}
+\bibliographystyle{aer}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\newcommand{\ve}{\varepsilon}
+\newcommand{\ip}[2]{\langle #1,#2 \rangle}
+
+\hypersetup{colorlinks,linkcolor=red,urlcolor=blue,citecolor=red}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}{Definition} % Number definitions on their own
+\newtheorem{derivation}{Derivation} % Number derivations on their own
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition} % Number propositions on their own
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+%\numberwithin{equation}{document}
+\graphicspath{{./Figures/}}
+\renewcommand\theenumi{\roman{enumi}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\crop
+\makeindex
+
+
+\begin{document}
+
+\begin{titlepage}
+	\title{Open Source Macroeconomics Laboratory Boot Camp \\ Homework Assignements}  %change title here accordingly
+	\author{Kerk Phillips\\ \emph{Brigham Young University}}
+	\date{\LARGE{2017}}
+	\maketitle
+\end{titlepage}
+
+\begin{spacing}{1.5}
+
+
+\section*{DSGE}\label{DSGE_HW}
+
+	% 1
+	\begin{exercise} \label{DSGE_HW_BM_FindA}
+		For the Brock and Mirman model, find the value of $A$ in the policy function.  Show that your value is correct.
+
+		For this case find an algebraic solution for the policy function, $k_{t+1} = \Phi (k_t,z_t)$.  Couple of good sources for hints are \citet[exercise 2.2, p. 12]{StokeyLucas1989} and \citet[exercise 1.1, p. 47]{Sargent1987}.
+	\end{exercise}
+
+	% 2
+	\begin{exercise} \label{DSGE_HW_CharEq_Ln}
+		For the model in section \ref{DSGE_BaselineDSGE} of the notes consider the following functional forms:
+		\begin{equation}\label{DSGE_HW_CharEq_Ln_eq01}
+		\begin{split}
+		u(c_t,\ell_t) & = \text{ln }c_t + a \text{ ln }(1-\ell_t)\\
+		F(K_t,L_t,z_t) & = e^{z_t}K^{\alpha}_t L^{1-\alpha}_t  \nonumber
+		\end{split}
+		\end{equation}
+		Write out all the characterizing equations for the model using these functional forms.
+
+		Can you use the same tricks as in Exercise 1 to solve for the policy function in this case?  Why or why not?
+	\end{exercise}
+
+	% 3
+	\begin{exercise} \label{DSGE_HW_CharEq_CES_Ln}
+		For the model in section \ref{DSGE_BaselineDSGE} consider the following functional forms:
+		\begin{equation}\label{DSGE_HW_CharEq_CES_Ln_eq01}
+		\begin{split}
+		u(c_t,\ell_t) & = \frac{c^{1-\gamma}_t -1}{1-\gamma}+ a \text{ ln }(1-\ell_t)\\
+		F(K_t,L_t,z_t) & = e^{z_t}K^{\alpha}_t L^{1-\alpha}_t  \nonumber
+		\end{split}
+		\end{equation}
+		Write out all the characterizing equations for the model using these functional forms.
+	\end{exercise}
+
+	% 4
+	\begin{exercise} \label{DSGE_HW_CharEq_CES}
+		For the model in section \ref{DSGE_BaselineDSGE} consider the following functional forms:
+		\begin{equation}\label{DSGE_HW_CharEq_CES_eq01}
+		\begin{split}
+		u(c_t,\ell_t) & = \frac{c^{1-\gamma}_t -1}{1-\gamma}+ a \frac{(1-\ell_t)^{1-\xi}-1}{1-\xi}      \\
+		F(K_t,L_t,z_t) & = e^{z_t}\left[\alpha K^{\eta}_t +(1-\alpha)L^{\eta}_t \right]^{\frac{1}{\eta}}   \nonumber
+		\end{split}
+		\end{equation}
+		Write out all the characterizing equations for the model using these functional forms.
+	\end{exercise}
+
+	% 5
+	\begin{exercise} \label{DSGE_HW_NoLeisure}
+		For the model in section \ref{DSGE_BaselineDSGE} abstract from the labor/leisure decision and consider the following functional forms:
+		\begin{equation}\label{DSGE_HW_NoLeisure_eq01}
+		\begin{split}
+		u(c_t) & = \frac{c^{1-\gamma}_t -1}{1-\gamma}      \\
+		F(K_t,L_t,z_t) & = K^{\alpha}_t (L_te^{z_t})^{1-\alpha}  \nonumber
+		\end{split}
+		\end{equation}
+		Write out all the characterizing equations for the model using these functional forms.  Assume $\ell_t=1$.
+
+		Write out the steady state versions of these equations.  Solve algebraically for the steady state value of $k$ as a function of the steady state value of $z$ and the parameters of the model.  Numerically solve for the steady state values of all variables using the following parameter values: $\gamma = 2.5$, $\beta = .98$, $\alpha = .40$, $\delta = .10$, $\bar z = 0$ and $\tau = .05$.  Also solve for the steady state values of output and investment.  Compare these values with the ones implied by the algebraic solution.
+	\end{exercise}
+
+	% 6
+	\begin{exercise} \label{DSGE_HW_CES}
+		For the model in section \ref{DSGE_BaselineDSGE} consider the following functional forms:
+		\begin{equation}\label{DSGE_HW_CES_eq01}
+		\begin{split}
+		u(c_t,\ell_t) & = \frac{c^{1-\gamma}_t -1}{1-\gamma}+ a \frac{(1-\ell_t)^{1-\xi}-1}{1-\xi}      \\
+		F(K_t,L_t,z_t) & = K^{\alpha}_t (L_te^{z_t})^{1-\alpha}  \nonumber
+		\end{split}
+		\end{equation}
+		Write out all the characterizing equations for the model using these functional forms.  {}Write out the steady state versions of these equations.  Numerically solve for the steady state values of all variables using the following parameter values: $\gamma = 2.5$, $\xi = 1.5$,  $\beta = .98$, $\alpha = .40$, $a=.5$, $\delta = .10$, $\bar z = 0$, and $\tau = .05$.  Also solve for the steady state values of output and investment.
+	\end{exercise}
+
+	% 7
+	\begin{exercise} \label{DSGE_HW_Base_TotalDiff}
+		For the steady state of the baseline tax model in section \ref{DSGE_SS_Base} use numerican differentiation to solve for the full set of comparative statics and sign them where possible.  Find $\frac{\partial y}{\partial x}$ for $y\in\{\bar k, \bar \ell, \bar y, \bar w, \bar r, \bar T, \bar i, \bar c \}$ and $x\in\{\alpha, \beta, \gamma, \delta, \xi, \tau, a, \bar z\}$.
+
+		Using the same parameter values as in excercise \ref{DSGE_HW_CES}, solve for the numerical values of the comparative statics.
+	\end{exercise}
+
+	%8
+	\begin{exercise} \label{DSGE_HW_BM_Grid}
+		For the Brock and Mirman model in section \eqref{DSGE_BrockMirman} set up a discrete grid for $K$ with 25 values ranging from $.5 \bar K$ to $1.5 \bar K$.  Also set up a discrete grid for $z$ with 25 values ranging from $-5\sigma$ to $+5\sigma$.  Set up a value function array, $V$ that stores the value for all $26^2$ possible permutations of $K$ and $z$.  Also set up a policy function array, $H$, that stores the optimal index value of $K'$ for all all $25^2$ possible permutations of $K$ and $z$.
+
+		To begin assume that all elements of $V$ are zero and that all elements of $H$ point to the lowest possible value for $K$ ($.5 \bar K$).
+
+		Loop over all possible values of $K$ and $z$ and for each combination find 1) the optimal value of $K'$ from the 25 possible values.  Store this value in an updated policy function array, $H_{new}$.  Also find 2) the value implied by this choice given the current value function.  Store this in an updated value function array, $V_{new}$.
+
+		Once this is completed for all $K$ and $z$ check to see if $V$ is approximately equal to $V_{new}$.  If so, output the value function and policy function arrays.  If not, replace $V$ with $V_{new}$ and $H$ with $H_{new}$ and repeat the search above.
+
+		When finished plot the three-dimensional surface plot for the policy function $K' = H(K,z)$.  Compare this with the closed form solution as described in section \ref{DSGE_BrockMirman}.
+	\end{exercise}
+
+	%9
+	\begin{exercise} \label{DSGE_HW_BM_Grid_Log}
+		Repeat the above exercise using $k \equiv \ln K$ in place of $K$ as the endogenous state variable.
+	\end{exercise}
+
+	% %10
+	% \begin{exercise} \label{DSGE_HW_Base_Grid_Log}
+	% 	Repeat the exercise \ref{DSGE_HW_BM_Grid} for the baseline tax model in section \ref{DSGE_SS_Base} using the same parameter values as in Exercise \ref{DSGE_HW_CES}.
+	% \end{exercise}
+
+	% %11
+	% \begin{exercise} \label{Linear_HW_Base_Sims}
+	% 	For the same model as above, generate 10,000 artificial time series for an economy where each time series is 250 periods long.  Start each simulation off with a starting value for $k$ equal to the steady state value, and a value of $z=0$.
+
+	% 	Use $\sigma_z^2 = .0004$.
+
+	% 	For each simulation save the time-series for GDP, consumption, investment, and the labor input.  When all 10,000 simulations have finished generate a graph for each of these time-series showing the average value over the simulations for each period, and also showing the five and ninety-five percent confidence bands for each series each period.
+	% \end{exercise}
+
+	% % 12
+	% \begin{exercise} \label{Linear_HW_Base_Moments}
+	% 	For the same model as above, calculate: the mean, volatility (standard deviation), coefficient of variation (mean divided by standard deviation), relative volatility (standard deviation divided bu the standard deviation of output), persistence (autocorrelation), and cyclicality (correlation with output); for each series over each simulation and report the average values and standard errors for these moments over the 10,000 simulations.
+	% \end{exercise}
+
+	% % 13
+	% \begin{exercise} \label{Linear_HW_Base_IRFs}
+	% 	For the same model as above, generate impulse response functions for: GDP, consumption, investment and total labor input; with lags from zero to forty periods.
+	% \end{exercise}
+	
+
+\section*{Linearization}\label{Linear_HW}
+
+	% 1
+	\begin{exercise} \label{Linear_HW_BM_Coeffs}
+		For the Brock and Mirman model in use Uhlig's notation to analytically find the values of the following matrices: $F, G, H, L, M$ \& $N$ as functions of the parameters.  Given these find the values of $P$ \& $Q$, also as functions of the parameters.  Imposing our calibrated parameter values, plot the three-dimensional surface plot for the policy function $K' = H(K,z)$.  Compare this with the closed form solution from the section \eqref{DSGE_BrockMirman} and the solution you found using the grid search method in exercise \ref{DSGE_HW_BM_Grid} frpom the DSGE chapter.
+	\end{exercise}
+
+	% 2
+	\begin{exercise} \label{Linear_HW_BM_Coeffs_Log}
+		Repeat the above exercise using $k \equiv \ln K$ in place of $K$ as the endogenous state variable.
+	\end{exercise}
+
+	% 3
+	\begin{exercise} \label{Linear_HW_Algebra}
+		Do the necessary tedious matrix algebra necessary to transform equation \eqref{Linear_Approx3LogLin} into \eqref{Linear_Trans2LogLin}.
+	\end{exercise}
+
+	% 4
+	\begin{exercise} \label{Linear_HW_Base_Numer_SS}
+		For the baseline tax model, find the steady state values of $k$, $c$, $r$, $w$, $\ell$, $T$, $y$ and $i$, numerically.  Assuming $u(c_t,\ell_t) = \frac{c^{1-\gamma}_t -1}{1-\gamma}+ a \frac{(1-\ell_t)^{1-\xi}-1}{1-\xi}$ and $F(K_t,L_t,z_t) = K^{\alpha}_t (L_te^{z_t})^{1-\alpha} $.  Use the following parameter values: $\gamma = 2.5$, $\xi = 1.5$,  $\beta = .98$, $\alpha = .40$, $a=.5$, $\delta = .10$, $\bar z = 0$, $\rho_z=.9$ and $\tau = .05$.
+	\end{exercise}
+
+	% 5
+	\begin{exercise} \label{Linear_HW_Base_Numer_Deriv}
+		For the same model as above, find $\frac{\partial y}{\partial x}$ for $y\in\{\bar k, \bar c, \bar r, \bar w, \bar \ell, \bar T, \bar y, \bar i\}$ and $x\in\{\delta, \tau, \bar z, \alpha, \gamma, \xi, \beta, a \}$ using numerical techniques.
+	\end{exercise}
+
+	% 6
+	\begin{exercise} \label{Linear_HW_Base_Coeffs}
+		For the same model as above, let $X_t = \{k_{t-1}, \ell_t\}$.  Find the values of $F$, $G$, $H$, $L$, $M$, $N$, $P$ and $Q$.
+	\end{exercise}
+
+	% 7
+	\begin{exercise} \label{Linear_HW_Base_Sims}
+		For the same model as above, generate 10,000 artificial time series for an economy where each time series is 250 periods long.  Start each simulation off with a starting value for $k$ equal to the steady state value, and a value of $z=0$.
+
+		Use $\sigma_z^2 = .0004$.
+
+		For each simulation save the time-series for GDP, consumption, investment, and the labor input.  When all 10,000 simulations have finished generate a graph for each of these time-series showing the average value over the simulations for each period, and also showing the five and ninety-five percent confidence bands for each series each period.
+	\end{exercise}
+
+	% 8
+	\begin{exercise} \label{Linear_HW_Base_Moments}
+		For the same model as above, calculate: the mean, volatility (standard deviation), coefficient of variation (mean divided by standard deviation), relative volatility (standard deviation divided bu the standard deviation of output), persistence (autocorrelation), and cyclicality (correlation with output); for each series over each simulation and report the average values and standard errors for these moments over the 10,000 simulations.
+	\end{exercise}
+
+	% 9
+	\begin{exercise} \label{Linear_HW_Base_IRFs}
+		For the same model as above, generate impulse response functions for: GDP, consumption, investment and total labor input; with lags from zero to forty periods.
+	\end{exercise}
+
+	% 10
+	\begin{exercise} \label{Linear_HW_OLG}
+		Recall the TPI exercises from the OLG chapter.  Use the linear approximation methods from section \ref{Linear_LogLinApprox} to solve for the non-steady state equilibrium transition path of the economy from $(k_{2,1},k_{3,1})=(0.8\bar{k}_2,1.1\bar{k}_3)$ to the steady-state $(\bar{k}_2,\bar{k}_3)$. Use the same value for $T$ as you used when you solved the problem using time path iteration (TPI).  Plot the time paths for $k_2$, $k_3$ and $K$.  Compare the resulting time paths for the two methods.  Comment on the tradeoff between accuracy and compute time based upon this comparison.
+	\end{exercise}
+
+	% 11
+	\begin{exercise} \label{Linear_HW_OLG_Stoch}
+		Repeat the exercise above only this time assume there is a stochastic shock to the model, so that $A$ is replaced by $e^{z_t}$ with $z_t = \rho_z z_{t-1} + \epsilon_t;\,\epsilon_t \sim \text{i.i.d} (0,\sigma_z^2)$.  Let $\sigma_z=.02$ and $\rho_z=.9^{20}$.  As with exercise 9 above, run 10,000 simulations and report the average and confidence bands for GDP, total consumption and investment.
+	\end{exercise}
+
+
+\section*{Perturbation}\label{Perturb_HW} 
+
+	% 1
+	\begin{exercise} \label{Perturb_HW_Cubic}
+		Following the example in equations \eqref{Perturb_Fxu2derv} and \eqref{Perturb_quad}, find the formula for the cubic term, $x_{uuu}(u_0)$, as a function of the derivatives of the $F$ function and the lower-order derrivatives of the $x$ function, i.e. $x(u_0)$, $x_u(u_0)$ and $x_{uu}(u_0)$.
+	\end{exercise}
+
+	% 2
+	\begin{exercise} \label{Perturb_HW02_GEApprox}
+		Consider the following static general equlibrim model.  Firms have a demand for labor curve given by $n^d = \left[\frac{(1-\alpha)z}{w}\right]^{\tfrac{1}{\alpha}} k$, where $z$ is the level of technology, $w$ is the wage rate, $k$ is a fixed capital stock, and $\alpha$ is a capital share parameter from a Cobb-Douglas production function.  Given this, the profits earned by the firm are $\pi = zk^\alpha (n^d)^{1-\alpha} - w n^d$.  The supply of labor by households is $n^s = h - \frac{b}{w(1+b)}(wh+\pi-t)$, where $h$ is the time endowment of the household, is $t$ is a lump-sum tax, and $b$ is a weight in utility on leisure versus consumption of goods.  Assuming a unit measure of both households and firms, use the following parameter values $\alpha = .33$, $k=5$, $z=1$, $b=2$, $t=.1$ and $h=24$.
+
+		Find the market-clearing wage rate using {\tt fsolve}.  Find a first-order approxmation for wage as a function of $k$.  Approximate about $k=5$.  
+
+		Find a second-order approximation also about $k=5$.
+
+		Set up a grid on the space between $k=1$ and $k=15$. Use {\tt fsolve} to find the equilibrium value of the wage at each point on the grid.
+
+		Plot the grid solution, the linear and quadratic approximations on the same graph.
+
+		Repeat the above exercise when the approximation point is $k=10$.
+	\end{exercise}
+
+	% 3
+	\begin{exercise} \label{Perturb_HW_Bivar_Grid}
+		For the function $F(y,x) =(x^{.35} + .9x - y)^{-2.5} - .95(y^{.35} + .9y )^{-2.5} = 0$, simplify and then use perturbation methods to find the cubic approximation of $y=G(x)$ about the point $x_0=100$.  In this case, $y_0=G(x_0)=10.5156$.
+
+		Write out the functional form of this polynomial with numbers for coefficients.
+
+		Set up a grid on the space between $x=99$ and $x=101$. Use {\tt fsolve} to find the equilibrium value of $y$ at each point on the grid.
+
+		Plot the difference between the linear, quadratic and cubic approximations and the grid solution on the same graph over the range $x\in(99,101)$.
+	\end{exercise}
+
+	% 4
+	\begin{exercise} \label{Perturb_HW_BM_NoStoch}
+		For the \citet{BrockMirman1972} model in section \ref{Perturb_DGE} with the default parameter values find the scalar values of $H_X$ and $H_{XX}$.  Use analytical derivatives.
+
+		Plot the the linear and quadratic approximations to policy function $K' = H(K)$.  Compare this with the closed form solution from the notes.
+	\end{exercise}
+
+	% 5
+	\begin{exercise} \label{Perturb_HW_BM}
+		For the \citet{BrockMirman1972} model with the default parameter values find the scalar values of $H_X$, $H_Z$, $H_{XX}$, $H_{XZ}$, $H_{ZZ}$ and $H_{vv}$.  Use numerical derivatives.
+
+		Plot the three-dimensional surface plot for the policy function $K' = H(K,z)$.  Compare this with the closed form solution from the notes and the two approximations from the DSGE chapter Exercise 8 and the Linearization chapter Exercise 1.
+	\end{exercise}
+
+	% 6
+	\begin{exercise} \label{Perturb_HW_BAse}
+		Repeat Exercise \ref{Perturb_HW_BM} above using the baseline model from section 6 in the linearization chapter.  Generate figures similar to those you generated in the Linearization chapter in Exercise 7.  Compare this plot with the one from that exercise.
+	\end{exercise}
+
+
+\section*{Filtering}\label{Filter_HW} 
+
+    % 1
+    \begin{exercise} \label{Filter_HW_CoVar_Proof} 
+        Prove that the spectral density of $X+Y$ is given by:
+        $$S_X(\omega) + S_Y(\omega) + 2 Re(S_{XY}(\omega))$$
+    \end{exercise}
+
+    % 2
+    \begin{exercise} \label{Filter_HW_HP_Proofs} 
+        Recall the minimization function for an HP filter is
+        \begin{equation}\label{Filter_HW_HP_Proofs_eq01}
+        \min_{g_t} \{ \sum_{t=1}^T (y_t - g_t)^2  +\lambda\sum_{t=2}^T[(g_{t+1}-g_{t}) - (g_{t}-g_{t-1})]^2\}
+        \end{equation}
+
+        Prove that as $\lambda \rightarrow \infty$, the filtered series $g_t$ is linear ($g_t = g_0 + \beta t$ for some $\beta$)
+
+        Let $0 <\lambda < \infty$. What are the first order conditions for \ref{Filter_HW_HP_Proofs_eq01} for $t = 1, 2$ and the general case $k$? 
+    \end{exercise}
+
+    % 3
+    \begin{exercise} \label{Filter_HW_Periodograms} 
+        Find and plot the (non-smoothed) spectral density estimates for the following quarterly US time series: GDP, consumption, investment, and CPI.
+    \end{exercise}
+    
+    % 4
+    \begin{exercise} \label{Filter_HW_Periodograms_Filtered} 
+        Use the HP filter to filter the time series from Exercise \ref{Filter_HW_Periodograms} taking $\lambda = 1600$. Find and plot the spectral density estimates for both the trend and cyclical parts of the filtered time series.
+    \end{exercise}
+    
+    % 5
+    \begin{exercise} \label{Filter_HW_Moments_HP} 
+        Using the data from Exercise \ref{Filter_HW_Periodograms}, filter each series using the HP filter with values of $\lambda=\{100,400,1600,6400,25600\}$.  For each series and each value of $\lambda$, 
+        calculate the mean, standard deviation, autocorrelation, and correlation with GDP.  Report these values an comment on the results.  Plot the time-series for output along with the 5 smoothed series.
+    \end{exercise}
+    
+    % 6
+    \begin{exercise} \label{Filter_HW_Moments} 
+        Replicate Table \ref{Stylized_USData_Tab} using data collected from the sites mentioned in Section \ref{Sec_FindData}.  Use quarterly data going back as far as 1947, if possible.  Do this for each of the following filters: 
+        \begin{itemize}
+          \setlength\itemsep{0em}
+          \item A linear trend filter 
+          \item the first difference ($y_t - y_{t-1}$) filter
+          \item HP($\lambda=1600$)
+          \item BP(6,32,$K=8$)
+        \end{itemize}
+    \end{exercise}
+
+\end{spacing}
+
+\newpage
+
+\bibliography{BootCampText}
+
+\end{document}
