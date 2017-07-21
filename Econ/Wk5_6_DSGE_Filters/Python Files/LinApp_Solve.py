@@ -33,7 +33,7 @@ def _nullSpaceBasis(A):
     If A is an empty matrix, an empty matrix is returned.
 
     """
-    if A:
+    if A.any():
         U, s, Vh = la.svd(A)
         vecs = np.array([])
         toAppend = A.shape[1] - s.size
@@ -97,7 +97,7 @@ def qzswitch(i, A, B, Q, Z):
     m = np.sqrt(dot(xy,xy.conj().T))
     
     if n == 0:
-        print "qzswitch(): Inputs unchanged!"
+        print ("qzswitch(): Inputs unchanged!")
         return A, B, Q, Z
     else:
        wz = wz/n
@@ -149,16 +149,16 @@ def qzdiv(stake, A, B, Q, Z):
     tmp = (root[:,0]<1.e-13).astype(int)
     root[:,0] = root[:,0]- tmp *(root[:,0]+root[:,1])
     root[:,1] = root[:,1]/root[:,0]
-    for i in xrange(n,0,-1):
+    for i in range(n,0,-1):
         m=0
-        for j in xrange(i,0,-1):
+        for j in range(i,0,-1):
             if (root[j-1,1] > stake or root[j-1,1] < -.1):
                 m=j
                 break
         if m==0:
-            print "qzdiv(): Inputs unchanged!"
+            print ("qzdiv(): Inputs unchanged!")
             return A, B, Q, Z
-        for k in xrange(m,i,1):
+        for k in range(m,i,1):
             A, B, Q, Z = qzswitch(k,A,B,Q,Z)
             tmp = root[k-1,1]
             root[k-1,1] = root[k,1]
@@ -400,7 +400,7 @@ def LinApp_Solve(AA,BB,CC,DD,FF,GG,HH,JJ,KK,LL,MM,WWW,TT,NN,Z0,Sylv):
                 else:
                     print("Dropping the lowest real eigenvalue. Beware of" +
                           " sunspots!")
-                    for i in xrange(drop_index,nx+1):
+                    for i in range(drop_index,nx+1):
                         Delta_up,Xi_up,UUU,VVV = qzswitch(i,Delta_up,Xi_up,UUU,VVV)
                     Xi_select1 = np.arange(0,drop_index-1)
                     Xi_select = np.append(Xi_select1, np.arange(drop_index,nx+1))
