@@ -107,9 +107,9 @@ def LinApp_Deriv(funcname,param,theta0,nx,ny,nz,logX):
         WW = zeros(0)
         TT = TT
 
-    AA = AA if AA.size==0 else zeros((ny, nx))
-    BB = BB if BB.size==0 else zeros((ny, nx))
-    CC = CC if CC.size==0 else zeros((ny, ny))
-    DD = DD if DD.size==0 else zeros((ny, nz))
+#    AA = AA if AA.size==0 else zeros((ny, nx))
+#    BB = BB if BB.size==0 else zeros((ny, nx))
+#    CC = CC if CC.size==0 else zeros((ny, ny))
+#    DD = DD if DD.size==0 else zeros((ny, nz))
 
     return [AA, BB, CC, DD, FF, GG, HH, JJ, KK, LL, MM, WW, TT]
