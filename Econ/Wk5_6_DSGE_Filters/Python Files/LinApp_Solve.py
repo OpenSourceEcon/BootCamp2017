@@ -463,18 +463,18 @@ def LinApp_Solve(AA,BB,CC,DD,FF,GG,HH,JJ,KK,LL,MM,WWW,TT,NN,Z0,Sylv):
 
     # Now we use LL, NN, RR, VV to get the QQ, RR, SS, VV matrices.
     # first try using Sylvester equation solver
-    if ny>0:
-        PM = (FF-la.solve(JJ.dot(CC),AA))
-        if npla.matrix_rank(PM)< nx+ny:
-            Sylv=0
-            print("Sylvester equation solver condition is not satisfied;"\
-                    +" proceed with the original method...")
-    else:
-        if npla.matrix_rank(FF)< nx:
-            Sylv=0
-            print("Sylvester equation solver condition is not satisfied;"\
-                    +" proceed with the original method...")
     if Sylv:
+        if ny>0:
+            PM = (FF-la.solve(JJ.dot(CC),AA))
+            if npla.matrix_rank(PM)< nx+ny:
+                Sylv=0
+                print("Sylvester equation solver condition is not satisfied;"\
+                        +" proceed with the original method...")
+        else:
+            if npla.matrix_rank(FF)< nx:
+                Sylv=0
+                print("Sylvester equation solver condition is not satisfied;"\
+                        +" proceed with the original method...")
         print("Using Sylvester equation solver...")
         if ny>0:
             Anew = la.solve(PM, (FF.dot(PP)+GG+JJ.dot(RR)-\
@@ -491,6 +491,7 @@ def LinApp_Solve(AA,BB,CC,DD,FF,GG,HH,JJ,KK,LL,MM,WWW,TT,NN,Z0,Sylv):
             Cnew = la.solve(FF, (-LL.dot(NN)-MM))
             QQ = la.solve_sylvester(Anew,Bnew,Cnew)
             SS = np.zeros((0,nz)) #empty matrix
+    
     # then the Uhlig's way
     else:
         if (npla.matrix_rank(VV) < nz * (nx + ny)):
@@ -502,7 +503,7 @@ def LinApp_Solve(AA,BB,CC,DD,FF,GG,HH,JJ,KK,LL,MM,WWW,TT,NN,Z0,Sylv):
         LLNN_plus_MM = dot(LL, NN) + MM
 
         if DD.any():
-            impvec = vstack([DD.T, np.reshape(LLNN_plus_MM,
+            impvec = vstack([DD, np.reshape(LLNN_plus_MM,
                                                   (nx * nz, 1), 'F')])
         else:
             impvec = np.reshape(LLNN_plus_MM, (nx * nz, 1), 'F')
