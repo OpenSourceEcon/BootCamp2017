@@ -90,7 +90,7 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 |     |     |     |      | [ACME: Newton and Quasi Newton Methods](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_QuasNewt.pdf) |  |
 |     |     |     |      | [ACME: Scipy.optimize](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_ScipyOpt.pdf) |  |
 7-19  | W   |     |     |     |     |
-7-20  | Th  | Adaptive sparse grids, Smolyak | Simon Scheidegger |  | Comp Prob Set 5 |
+7-20  | Th  | Adaptive sparse grids, Smolyak | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) |  | Comp Prob Set 5 |
 7-21  | F   |     |     |     | due T, 7-25, 8am    |
 
 ### Week 6
@@ -98,9 +98,9 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-24  | M   |     |     |     |     |
-7-25  | T   | HPC, parallel computing | Simon Scheidegger |  | Comp Prob Set 6 |
+7-25  | T   | HPC, parallel computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) |  | Comp Prob Set 6 |
 7-26  | W   |     |     |     | due T, 8-1, 8am |
-7-27  | Th  | HPC, parallel computing | Simon Scheidegger |  |  |
+7-27  | Th  | HPC, parallel computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) |  |  |
 7-28  | F   |     |     |     |     |
 
 ### Week 7
@@ -108,9 +108,9 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-31 | M   |      |     |     |     |
-8-1  | T   | HPC, parallel computing | Simon Scheidegger |  | Comp Prob Set 7  |
+8-1  | T   | HPC, parallel computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) |  | Comp Prob Set 7  |
 8-2  | W   |      |     |     | due F, 8-4, 8am |
-8-3  | Th  | HPC, parallel computing | Simon Scheidegger |  |  |
+8-3  | Th  | HPC, parallel computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) |  |  |
 8-4  | F   | Conclusion: Hwk due |  |  |  |
 
 
