@@ -64,14 +64,14 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 7-25  | T   |             |            |     |  |
 7-26  | W   | Filtering and cyclicality | [Kerk Phillips](https://sites.google.com/site/kerkphillips/home) |    [Filtering Notes](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk5_6_DSGE_Filters/Chapter_Filter.pdf) |   |
 7-27  | Th  |             |            |     |  |
-7-28  | F   | Macro-financial modeling | [Richard Evans](https://sites.google.com/site/rickecon/) |    |  |
+7-28  | F   | Macro-financial modeling | [Richard Evans](https://sites.google.com/site/rickecon/) | [MFM Intro slides](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk7_MFM/MFMintro.pdf)   |  |
 
 ### Week 7
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-31 | M   | Macro-financial modeling | [Viktor Tsyrennikov](https://sites.google.com/site/vtsyrennikov/) |   |  |
-8-1  | T   |             |           |     |  |
+7-31 | M   | Macro-financial modeling | [Viktor Tsyrennikov](https://sites.google.com/site/vtsyrennikov/) | [Notes]() | [Econ Prob Set 6]() |
+8-1  | T   |             |           |     | due F, 8-4, 8am |
 8-2  | W   | Macro-financial modeling | [Viktor Tsyrennikov](https://sites.google.com/site/vtsyrennikov/) |  |  |
 8-3  | Th  |             |           |     |  |
 8-4  | F   | Conclusion: Hwk due |  |  |  |
