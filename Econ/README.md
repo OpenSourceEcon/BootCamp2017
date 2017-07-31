@@ -70,7 +70,7 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-31 | M   | Macro-financial modeling | [Viktor Tsyrennikov](https://sites.google.com/site/vtsyrennikov/) | [Notes]() | [Econ Prob Set 6]() |
+7-31 | M   | Macro-financial modeling | [Viktor Tsyrennikov](https://sites.google.com/site/vtsyrennikov/) | [Notes](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk7_MFM/ViktorNotes.pdf) | [Econ Prob Set 6]() |
 8-1  | T   |             |           |     | due F, 8-4, 8am |
 8-2  | W   | Macro-financial modeling | [Viktor Tsyrennikov](https://sites.google.com/site/vtsyrennikov/) |  |  |
 8-3  | Th  |             |           |     |  |
