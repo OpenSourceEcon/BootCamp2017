@@ -1,0 +1,18 @@
+  0.9500 Discount factor H (household)
+  0.9460 Discount factor F (financier)
+  1.0000 Coef of risk aversion H
+  1.0000 Coef of risk aversion F
+  1.0000 Productivity of H
+  1.0300 Productivity of F
+  0.1000 Minimum capital investment of F
+  0.0500 Disaster state: loss of output
+  0.0000 Disaster state: probability
+  5.0000 Volatility  of productivity
+  0.0500 Interval left  end-point
+  0.9500 Interval right end-point
+  0.0200 Interval extension
+       2 Smoothing param for GZ variables
+  2.0000 Conversion parameter for consumption
+     100 Number of periods
+     100 Number of grid points
+    1000 Number of periods in the simulation
