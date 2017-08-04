@@ -77,7 +77,7 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 8-1  | T   |             |           |     | due F, 8-4, 8am |
 8-2  | W   | Nonlinear optimization | [Jorge Barro](http://www.jorgebarro.com/) | HJ (2017, Ch. 9) |  |
 8-3  | Th  |             |           |     |  |
-8-4  | F   | Conclusion: Hwk due | Conclusion: Hwk due | Conclusion: Hwk due |  |
+8-4  | F   | [Conclusion:](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Conclusion_BootCamp.pdf) Hwk due |  |  |  |
 
 
 ## References

@@ -111,7 +111,7 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 8-1  | T   | HPC, parallel computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC Repo](https://github.com/OpenSourceMacro/Simon_HPC) | Comp Prob Set 7  |
 8-2  | W   |      |     |     | due F, 8-4, 8am |
 8-3  | Th  | HPC, parallel computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC Repo](https://github.com/OpenSourceMacro/Simon_HPC) |  |
-8-4  | F   | Conclusion: Hwk due |  |  |  |
+8-4  | F   | [Conclusion:](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Conclusion_BootCamp.pdf) Hwk due |  |  |  |
 
 
 ## References

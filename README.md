@@ -126,7 +126,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 8-1  | T   |                        |                          | HPC/parallel compute |     |
 8-2  | W   | Nonlinear optimization | Macro-financial modeling |                      |     |
 8-3  | Th  |                        |                          | HPC/parallel compute |     |
-8-4  | F   | Conclusion: Hwk due    | Conclusion: Hwk due      | Conclusion: Hwk due  | TBA |
+8-4  | F   | [Conclusion:](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Conclusion_BootCamp.pdf) Hwk due    | [Conclusion:](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Conclusion_BootCamp.pdf) Hwk due      | [Conclusion:](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Conclusion_BootCamp.pdf) Hwk due  | TBA |
 
 This will be an intensive seven weeks. We expect that your attendance of lectures plus homework time will average 60 hours per week of work.
 
